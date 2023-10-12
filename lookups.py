@@ -44,4 +44,4 @@ class prediction(Enum):
     MORATLITY_GLOBAL=r"csv\moratlity_global.csv"
     PREVALENCE_GLOBAL=r"csv/prevalence_global.csv"
     PREVALENCE_LEBANON=r"csv\prevalence_lebanon.csv"
-    SWITZERLAND=r"csv\Switzerland.csv"
+    SWITZERLAND=r"csv\Switzerland.csv" 
