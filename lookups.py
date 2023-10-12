@@ -34,14 +34,22 @@ class InputTypes(Enum):
 class prediction(Enum):
     BRAIN_STROKE_DS=r"csv\Brain_stroke_prediction_dataset.csv"
     CARDIO_PREDICTION=r"csv\cardio_prediction.csv"
-    CLEVELAND=r"csv/CVD_cleaned.csv"
-    DISEASE=r"csv\Disease.csv"
     FRAMINGHAM_PREDICTION=r"csv\Framingham_prediction.csv"
-    FRAMINGHAM_STUDY=r"csv\Framingham_Study.csv"
+   
+
+
+
+class epidimiolgy(Enum):
+    DISEASE=r"csv\Disease.csv"
     INCIDENCE_GLOBAL=r"csv\incidence_global.csv"
     INCIDENCE_LEBANON=r"csv\incidence_lebanon.csv"
     MORATLITY_LEBANON=r"csv\mortality_lebanon.csv"
     MORATLITY_GLOBAL=r"csv\moratlity_global.csv"
     PREVALENCE_GLOBAL=r"csv/prevalence_global.csv"
     PREVALENCE_LEBANON=r"csv\prevalence_lebanon.csv"
+
+
+class studies(Enum):
+    FRAMINGHAM_STUDY=r"csv\Framingham_Study.csv"
     SWITZERLAND=r"csv\Switzerland.csv" 
+    CLEVELAND=r"csv/CVD_cleaned.csv"
