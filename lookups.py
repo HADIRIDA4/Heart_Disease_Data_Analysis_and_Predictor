@@ -37,9 +37,10 @@ class prediction(Enum):
     FRAMINGHAM_PREDICTION=r"csv\Framingham_prediction.csv"
    
 
-
-
-class epidimiolgy(Enum):
+class studies(Enum):
+    FRAMINGHAM_STUDY=r"csv\Framingham_Study.csv"
+    SWITZERLAND=r"csv\Switzerland.csv" 
+    CLEVELAND=r"csv/CVD_cleaned.csv"
     DISEASE=r"csv\Disease.csv"
     INCIDENCE_GLOBAL=r"csv\incidence_global.csv"
     INCIDENCE_LEBANON=r"csv\incidence_lebanon.csv"
@@ -49,7 +50,19 @@ class epidimiolgy(Enum):
     PREVALENCE_LEBANON=r"csv\prevalence_lebanon.csv"
 
 
-class studies(Enum):
-    FRAMINGHAM_STUDY=r"csv\Framingham_Study.csv"
-    SWITZERLAND=r"csv\Switzerland.csv" 
-    CLEVELAND=r"csv/CVD_cleaned.csv"
+
+
+class DestinationDatabase(Enum):
+    SCHEMA_NAME = "dw_reporting"
+    DATABASE_NAME = "heart_db"
+
+
+
+class fields:
+    pass
+
+
+
+class ETLStep(Enum):
+    PRE_HOOK = "prehook"
+    HOOK = "hook"
