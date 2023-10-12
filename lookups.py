@@ -38,16 +38,16 @@ class prediction(Enum):
    
 
 class studies(Enum):
-    FRAMINGHAM_STUDY=r"csv\Framingham_Study.csv"
-    SWITZERLAND=r"csv\Switzerland.csv" 
-    CLEVELAND=r"csv/CVD_cleaned.csv"
-    DISEASE=r"csv\Disease.csv"
-    INCIDENCE_GLOBAL=r"csv\incidence_global.csv"
-    INCIDENCE_LEBANON=r"csv\incidence_lebanon.csv"
-    MORATLITY_LEBANON=r"csv\mortality_lebanon.csv"
-    MORATLITY_GLOBAL=r"csv\moratlity_global.csv"
-    PREVALENCE_GLOBAL=r"csv/prevalence_global.csv"
-    PREVALENCE_LEBANON=r"csv\prevalence_lebanon.csv"
+    FRAMINGHAM_STUDY = "csv/Framingham_Study.csv"
+    SWITZERLAND = "csv/Switzerland.csv"
+    CLEVELAND = "csv/CVD_cleaned.csv"
+    DISEASE = "csv/Disease.csv"
+    INCIDENCE_GLOBAL = "csv/incidence_global.csv"
+    INCIDENCE_LEBANON = "csv/incidence_lebanon.csv"
+    MORTALITY_LEBANON = "csv/mortality_lebanon.csv"
+    MORTALITY_GLOBAL = "csv/mortality_global.csv"
+    PREVALENCE_GLOBAL = "csv/prevalence_global.csv"
+    PREVALENCE_LEBANON = "csv/prevalence_lebanon.csv"
 
 
 
