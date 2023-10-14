@@ -1,13 +1,13 @@
-code,disease_name,Description
-495,Ischemic stroke,"Interruption of blood supply to the brain, often due to clot or blockage in a blood vessel, leading to brain damage."
-500,Atrial fibrillation and flutter,"Irregular and rapid heart rhythm in the upper chambers, increasing the risk of blood clots and stroke."
-493,Ischemic heart disease,"Reduction in blood supply to the heart muscle due to coronary artery narrowing, leading to chest pain or heart attack."
-496,Intracerebral hemorrhage,"Bleeding within the brain due to the rupture of a blood vessel, causing brain damage and neurological symptoms."
-498,Hypertensive heart disease,High blood pressure leading to heart damage and increased risk of heart-related issues.
-492,Rheumatic heart disease,"Heart condition resulting from untreated streptococcal infections, leading to heart valve inflammation and damage."
-502,Peripheral artery disease,"Reduced blood flow to limbs, typically the legs, due to artery narrowing, causing pain and mobility issues."
-497,Subarachnoid hemorrhage,"Stroke caused by bleeding into the space around the brain, often due to a ruptured aneurysm."
-504,Non-rheumatic valvular heart disease,"Heart valve disorders not related to rheumatic fever, affecting blood flow within the heart."
-503,Endocarditis,"Infection of the heart's inner lining, often caused by bacteria, leading to heart valve damage and complications."
-499,Cardiomyopathy and myocarditis,"Group of heart muscle diseases causing heart dysfunction, including myocarditis, which is inflammation of the heart muscle."
-1023,Other cardiovascular and circulatory diseases,A broad category encompassing various cardiovascular disorders.
+code,disease_name,Description,last_update
+495,Ischemic stroke,"Interruption of blood supply to the brain, often due to clot or blockage in a blood vessel, leading to brain damage.",12/31/2019
+500,Atrial fibrillation and flutter,"Irregular and rapid heart rhythm in the upper chambers, increasing the risk of blood clots and stroke.",12/31/2019
+493,Ischemic heart disease,"Reduction in blood supply to the heart muscle due to coronary artery narrowing, leading to chest pain or heart attack.",12/31/2019
+496,Intracerebral hemorrhage,"Bleeding within the brain due to the rupture of a blood vessel, causing brain damage and neurological symptoms.",12/31/2019
+498,Hypertensive heart disease,High blood pressure leading to heart damage and increased risk of heart-related issues.,12/31/2019
+492,Rheumatic heart disease,"Heart condition resulting from untreated streptococcal infections, leading to heart valve inflammation and damage.",12/31/2019
+502,Peripheral artery disease,"Reduced blood flow to limbs, typically the legs, due to artery narrowing, causing pain and mobility issues.",12/31/2019
+497,Subarachnoid hemorrhage,"Stroke caused by bleeding into the space around the brain, often due to a ruptured aneurysm.",12/31/2019
+504,Non-rheumatic valvular heart disease,"Heart valve disorders not related to rheumatic fever, affecting blood flow within the heart.",12/31/2019
+503,Endocarditis,"Infection of the heart's inner lining, often caused by bacteria, leading to heart valve damage and complications.",12/31/2019
+499,Cardiomyopathy and myocarditis,"Group of heart muscle diseases causing heart dysfunction, including myocarditis, which is inflammation of the heart muscle.",12/31/2019
+1023,Other cardiovascular and circulatory diseases,A broad category encompassing various cardiovascular disorders.,12/31/2019

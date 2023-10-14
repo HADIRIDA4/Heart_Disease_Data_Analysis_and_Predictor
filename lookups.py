@@ -45,7 +45,7 @@ class studies(Enum):
     INCIDENCE_GLOBAL = "csv/incidence_global.csv"
     INCIDENCE_LEBANON = "csv/incidence_lebanon.csv"
     MORTALITY_LEBANON = "csv/mortality_lebanon.csv"
-    MORTALITY_GLOBAL = "csv/mortality_global.csv"
+    MORTALITY_GLOBAL = "csv\moratlity_global.csv"
     PREVALENCE_GLOBAL = "csv/prevalence_global.csv"
     PREVALENCE_LEBANON = "csv/prevalence_lebanon.csv"
 

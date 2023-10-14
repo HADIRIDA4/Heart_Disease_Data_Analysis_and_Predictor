@@ -62,7 +62,7 @@ def return_data_as_df(file_executor, input_type, db_session = None):
     try:
         if input_type == InputTypes.CSV:
             return_dataframe = pd.read_csv(file_executor)
-            parse_date_columns(return_dataframe)
+            # parse_date_columns(return_dataframe)
         elif input_type == InputTypes.EXCEL:
             return_dataframe = pd.read_excel(file_executor)
             parse_date_columns(return_dataframe)

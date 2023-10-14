@@ -11,10 +11,10 @@ def execute_prehook(sql_command_directory_path = './SQL_Commands'):
         
         db_session = create_connection()
         execute_sql_folder(db_session, sql_command_directory_path, ETLStep.PRE_HOOK, DestinationDatabase.SCHEMA_NAME)
-        df_src_titles,df_src_content=enum_to_lists(studies)
-        create_insert_sql(db_session, DestinationDatabase.DATABASE_NAME, df_src_content, df_src_titles,etl_step=ETLStep.PRE_HOOK)
+        df_title,source=enum_to_lists(studies)
+        create_insert_sql(db_session, DestinationDatabase.DATABASE_NAME, df_title,source,etl_step=ETLStep.PRE_HOOK,input_type=InputTypes.CSV)
         close_connection(db_session)
-        
+        return df_title,source 
 
 
     except Exception as error:
