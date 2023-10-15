@@ -23,8 +23,6 @@ CREATE TABLE IF NOT EXISTS target_schema.dim_cleveland_study
   last_update timestamp
 );
 
--- Assuming that your source table is named target_schema.stg_source_table
--- You can adjust the source table name as needed.
 
 INSERT INTO target_schema.dim_cleveland_study
 (
