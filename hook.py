@@ -79,9 +79,9 @@ def execute_hook(df_title,source):
         etl_date, does_etl_time_exists = return_etl_last_updated_date(db_session)
         create_insert_sql(db_session,DestinationDatabase.DATABASE_NAME,df_title,source, ETLStep.HOOK,InputTypes.CSV,etl_date)
         
-        # execute_sql_folder(db_session, './SQL_Commands', ETLStep.HOOK, DestinationDatabase.SCHEMA_NAME)
-        # #last step
-        # insert_or_update_etl_checkpoint(db_session, does_etl_time_exists,datetime.now())
+        execute_sql_folder(db_session, "SQL_COMMANDS", ETLStep.HOOK, DestinationDatabase.SCHEMA_NAME)
+        #last step
+        insert_or_update_etl_checkpoint(db_session, does_etl_time_exists,datetime.now())
         close_connection(db_session)
     except Exception as error:
         suffix = str(error)
