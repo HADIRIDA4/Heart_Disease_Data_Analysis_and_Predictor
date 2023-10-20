@@ -12,6 +12,7 @@ import pandas as pd
 #     return tables
 
 
+
 def return_lookup_items_as_dict(lookup_item):
     enum_dict = {str(item.name).lower():item.value.replace(item.name.lower() + "_","") for item in lookup_item}
     return enum_dict
@@ -52,13 +53,16 @@ def create_insert_sql(db_session, source_name,df_source_list,df_titles,etl_step,
         for df_source, df_title in zip(df_titles,df_source_list):
             
             if etl_step == ETLStep.PRE_HOOK:
+                
                 dst_table = f"stg_{source_name}_{df_title}"
+                stg_tables.append[dst_table]
                 dataframe_source=return_data_as_df(df_source, input_type)
                 create_stmt = return_create_statement_from_df(dataframe_source, 'dw_reporting', dst_table)
+                
                 execute_query(db_session=db_session, query= create_stmt)
 
-                # index_name = df_source.index.name.replace(" ", "_").replace("-", "_")
-                # create_sql_staging_table_index(db_session, 'dw_reporting', dst_table, index_name)
+
+                
             elif etl_step == ETLStep.HOOK:
                 dst_table = f"stg_{source_name}_{df_source}"
                 dataframe_source=return_data_as_df(df_title, input_type)
@@ -70,6 +74,13 @@ def create_insert_sql(db_session, source_name,df_source_list,df_titles,etl_step,
                 if len(staging_df):
                     insert_stmt = return_insert_into_sql_statement_from_df(dataframe_source, 'dw_reporting', dst_table)
                     execute_query(db_session=db_session, query= insert_stmt)
+            elif etl_step==ETLStep.POSTHOOK:
+                stg_tables=[]
+                for df_source, df_title in zip(df_titles,df_source_list):
+                    dst_table = f"stg_{source_name}_{df_title}"
+                    stg_tables.append(dst_table)
+            return stg_tables
+                
          
     except Exception as error:
         suffix = str(error)

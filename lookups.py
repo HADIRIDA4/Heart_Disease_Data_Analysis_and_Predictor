@@ -66,3 +66,4 @@ class fields:
 class ETLStep(Enum):
     PRE_HOOK = "prehook"
     HOOK = "hook"
+    POSTHOOK="posthook"
