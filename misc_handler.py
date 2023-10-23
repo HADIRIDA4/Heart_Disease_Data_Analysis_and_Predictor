@@ -53,15 +53,14 @@ def create_insert_sql(db_session, source_name,df_source_list,df_titles,etl_step,
         for df_source, df_title in zip(df_titles,df_source_list):
             
             if etl_step == ETLStep.PRE_HOOK:
-                
                 dst_table = f"stg_{source_name}_{df_title}"
-                stg_tables.append[dst_table]
+                
                 dataframe_source=return_data_as_df(df_source, input_type)
                 create_stmt = return_create_statement_from_df(dataframe_source, 'dw_reporting', dst_table)
                 
                 execute_query(db_session=db_session, query= create_stmt)
-
-
+                stg_tables=[]
+                stg_tables.append(dst_table)
                 
             elif etl_step == ETLStep.HOOK:
                 dst_table = f"stg_{source_name}_{df_source}"
@@ -75,11 +74,11 @@ def create_insert_sql(db_session, source_name,df_source_list,df_titles,etl_step,
                     insert_stmt = return_insert_into_sql_statement_from_df(dataframe_source, 'dw_reporting', dst_table)
                     execute_query(db_session=db_session, query= insert_stmt)
             elif etl_step==ETLStep.POSTHOOK:
-                stg_tables=[]
+                stg_tables_2=[]
                 for df_source, df_title in zip(df_titles,df_source_list):
                     dst_table = f"stg_{source_name}_{df_title}"
-                    stg_tables.append(dst_table)
-            return stg_tables
+                    stg_tables_2.append(dst_table)
+                return stg_tables_2
                 
          
     except Exception as error:

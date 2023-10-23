@@ -67,3 +67,29 @@ class ETLStep(Enum):
     PRE_HOOK = "prehook"
     HOOK = "hook"
     POSTHOOK="posthook"
+
+
+class ML_TYPE:
+    NON_LINEAR="NON_LINEAR_ML"
+    LINEAR_ML="LINEAR_ML"
+
+
+class ChestPainType(Enum):
+    TYPICAL_ANGINA = 1
+    ATYPICAL_ANGINA = 2
+    NON_ANGINAL_PAIN = 3
+    ASYMPTOMATIC = 4
+
+class RestECGType(Enum):
+    NORMAL = 0
+    ST_T_WAVE_ABNORMALITY = 1
+    LEFT_VENTRICULAR_HYPERTROPHY = 2
+
+class StSlopeType(Enum):
+    UPSLOPING = 1
+    FLAT = 2
+    DOWNSLOPING = 3
+
+class SexType(Enum):
+    FEMALE = 0
+    MALE = 1
