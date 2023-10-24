@@ -48,7 +48,12 @@ class studies(Enum):
     MORTALITY_GLOBAL = "csv\moratlity_global.csv"
     PREVALENCE_GLOBAL = "csv/prevalence_global.csv"
     PREVALENCE_LEBANON = "csv/prevalence_lebanon.csv"
-
+    CONFUSION_PREDICTION = "csv\confusion_results.csv"
+    METRICS_RANKING = "csv\metrics_results.csv"
+    FEATURE_IMPORTANCE = "csv\important_features_results.csv"     
+    MODEL_RESULT_CSV_PATH = "csv\models_result.csv"
+    GLOBAL_DEATH="csv\Global_Deaths.csv"
+    
 
 
 
@@ -93,3 +98,8 @@ class StSlopeType(Enum):
 class SexType(Enum):
     FEMALE = 0
     MALE = 1
+
+
+
+class Output_Directory(Enum):
+    CSV="csv"

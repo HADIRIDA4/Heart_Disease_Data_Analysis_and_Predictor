@@ -198,16 +198,30 @@ def ml_prediction(data_source):
                                index=['Random Forest Entropy', 'ExtraTreesClassifier', 'XGBoost'])
 
     return metrics_df, confusion_df
-def execute_ml_classification_prediction(data_source):
-    dt=data_processing(data_source,drop_null=True)
-    X_train, X_test,y_train,y_test=training_preprocessing(dt)
-    y_test, y_preds=model_building(X_train, X_test, y_train, y_test)
+
+def execute_ml_classification_prediction(data_source, output_directory):
+    dt = data_processing(data_source, drop_null=True)
+    X_train, X_test, y_train, y_test = training_preprocessing(dt)
+    y_test, y_preds = model_building(X_train, X_test, y_train, y_test)
     xgb_model = xgb.XGBClassifier(n_estimators=500)
-    feature_importance_df=feature_transformation(X_train, X_test,y_train,xgb_model)
-    models_result_df=calculate_metrics(y_preds, y_test)
-    metrics_df, confusion_df= ml_prediction(data_source)
+    feature_importance_df = feature_transformation(X_train, X_test, y_train, xgb_model)
+    models_result_df = calculate_metrics(y_preds, y_test)
+    metrics_df, confusion_df = ml_prediction(data_source)
+    date_value = pd.to_datetime('12/31/2019', format='%m/%d/%Y')
+    feature_importance_df["last_update"]=date_value
+    models_result_df["last_update"]=date_value
+    metrics_df["last_update"]=date_value
+    confusion_df["last_update"]=date_value
 
-    return models_result_df,feature_importance_df,metrics_df, confusion_df
+    # Save DataFrames to CSV files
+    confusion_csv_path = f"{output_directory}/confusion_results.csv"
+    metrics_csv_path = f"{output_directory}/metrics_results.csv"
+    feature_importance_csv_path = f"{output_directory}/important_features_results.csv"
+    models_result_csv_path = f"{output_directory}/models_result.csv"
 
+    confusion_df.to_csv(confusion_csv_path, index=False)
+    metrics_df.to_csv(metrics_csv_path, index=False)
+    feature_importance_df.to_csv(feature_importance_csv_path, index=False)
+    models_result_df.to_csv(models_result_csv_path, index=False)
 
 
