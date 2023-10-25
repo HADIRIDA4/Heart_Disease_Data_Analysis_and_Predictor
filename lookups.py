@@ -31,10 +31,7 @@ class InputTypes(Enum):
     EXCEL = "Excel"
     HTTP = "Http"
 
-class prediction(Enum):
-    BRAIN_STROKE_DS=r"csv\Brain_stroke_prediction_dataset.csv"
-    CARDIO_PREDICTION=r"csv\cardio_prediction.csv"
-    FRAMINGHAM_PREDICTION=r"csv\Framingham_prediction.csv"
+
    
 
 class studies(Enum):
@@ -42,18 +39,12 @@ class studies(Enum):
     SWITZERLAND = "csv/Switzerland.csv"
     CLEVELAND = "csv/CVD_cleaned.csv"
     DISEASE = "csv/Disease.csv"
-    INCIDENCE_GLOBAL = "csv/incidence_global.csv"
-    INCIDENCE_LEBANON = "csv/incidence_lebanon.csv"
-    MORTALITY_LEBANON = "csv/mortality_lebanon.csv"
-    MORTALITY_GLOBAL = "csv\moratlity_global.csv"
-    PREVALENCE_GLOBAL = "csv/prevalence_global.csv"
-    PREVALENCE_LEBANON = "csv/prevalence_lebanon.csv"
     CONFUSION_PREDICTION = "csv\confusion_results.csv"
     METRICS_RANKING = "csv\metrics_results.csv"
     FEATURE_IMPORTANCE = "csv\important_features_results.csv"     
     MODEL_RESULT_CSV_PATH = "csv\models_result.csv"
-    GLOBAL_DEATH="csv\Global_Deaths.csv"
-    
+    EPIDEMIOLOGY="csv\epidemiological_data.csv"
+
 
 
 
@@ -63,8 +54,6 @@ class DestinationDatabase(Enum):
 
 
 
-class fields:
-    pass
 
 
 
