@@ -51,7 +51,7 @@ def create_insert_sql(db_session, source_name,df_source_list,df_titles,etl_step,
     try:
         source_name = source_name.value
         for df_source, df_title in zip(df_titles,df_source_list):
-            
+            staging_df=pd.DataFrame()
             if etl_step == ETLStep.PRE_HOOK:
                 dst_table = f"stg_{source_name}_{df_title}"
                 
@@ -70,7 +70,7 @@ def create_insert_sql(db_session, source_name,df_source_list,df_titles,etl_step,
                 if latest_date>etl_date:
                    dataframe_source['last_update'] = pd.to_datetime(dataframe_source['last_update'])
                    staging_df=dataframe_source
-                if len(staging_df):
+                if len(staging_df)>0:
                     insert_stmt = return_insert_into_sql_statement_from_df(dataframe_source, 'dw_reporting', dst_table)
                     execute_query(db_session=db_session, query= insert_stmt)
             elif etl_step==ETLStep.POSTHOOK:
