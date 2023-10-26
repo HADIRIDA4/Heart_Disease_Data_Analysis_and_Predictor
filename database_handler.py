@@ -53,7 +53,7 @@ def parse_date_columns(dataframe):
         except Exception as e:
             suffix = str(e)
             error_prefix = ErrorHandling.DATE_CONVERSION_ERROR.value
-            show_error_message(error_prefix,suffix)
+            # show_error_message(error_prefix,suffix)
 
 
 

@@ -224,7 +224,7 @@ Model Deployment
 <a  name="run"  ></a>
 <img  src="./readme/title6.svg" id="run"/>
 
-> To set up ## **USA Recession Analysis and Prediction** follow these steps:
+> To set up ## **Heart Disease and Predictor** follow these steps:
 
 ### Prerequisites
 
