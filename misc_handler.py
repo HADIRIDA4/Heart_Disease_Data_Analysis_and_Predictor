@@ -7,9 +7,7 @@ import pandas as pd
 
 
 
-# def return_staging_tables_as_list():
-#     tables = [str(table.name).lower() for table in DateField]
-#     return tables
+
 
 
 
@@ -41,9 +39,7 @@ def execute_sql_folder(db_session, sql_command_directory_path, etl_step, target_
                 
 
                 
-# def create_sql_staging_table_index(db_session,source_name, table_name, index_val):
-#     query = f"CREATE INDEX IF NOT EXISTS idx_{table_name}_{index_val} ON {source_name}.{table_name} ({index_val});"
-#     execute_query(db_session,query)
+
 
 
 def create_insert_sql(db_session, source_name,df_source_list,df_titles,etl_step,input_type=None,etl_date = None):
