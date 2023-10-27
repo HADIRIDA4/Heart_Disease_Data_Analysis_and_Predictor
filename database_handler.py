@@ -7,7 +7,7 @@ import pandas as pd
 
 
 config_dict = {
-    "database": "heart_db_2",
+    "database": "heart_dbb",
     "host":"localhost",
     "port":5432,
     "user":"postgres",
