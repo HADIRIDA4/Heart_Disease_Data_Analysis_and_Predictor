@@ -63,9 +63,12 @@ def create_insert_sql(db_session, source_name,df_source_list,df_titles,etl_step,
                 dataframe_source=return_data_as_df(df_title, input_type)
                 latest_date=pd.to_datetime(dataframe_source['last_update']).max()
                 etl_date = pd.to_datetime(etl_date)
-                if latest_date>etl_date:
-                   dataframe_source['last_update'] = pd.to_datetime(dataframe_source['last_update'])
-                   staging_df=dataframe_source
+                if latest_date<etl_date:
+                   print("there is no data to be updated")
+                else:
+                    dataframe_source['last_update'] = pd.to_datetime(dataframe_source['last_update'])
+                    staging_df=dataframe_source
+                    
                 if len(staging_df)>0:
                     insert_stmt = return_insert_into_sql_statement_from_df(dataframe_source, 'dw_reporting', dst_table)
                     execute_query(db_session=db_session, query= insert_stmt)
