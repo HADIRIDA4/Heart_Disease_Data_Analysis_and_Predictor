@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS target_schema.dim_cleveland_study
 
 INSERT INTO target_schema.dim_cleveland_study
 (
-  SELECT
+  SELECT 
     ID_,
     General_Health,
     Checkup,
@@ -50,26 +50,4 @@ INSERT INTO target_schema.dim_cleveland_study
     last_update
   FROM target_schema.stg_heart_db_cleveland
 )
-ON CONFLICT (ID)
-DO UPDATE SET
-  ID = EXCLUDED.ID,
-  General_Health = EXCLUDED.General_Health,
-  Checkup = EXCLUDED.Checkup,
-  Exercise = EXCLUDED.Exercise,
-  Heart_Disease = EXCLUDED.Heart_Disease,
-  Skin_Cancer = EXCLUDED.Skin_Cancer,
-  Other_Cancer = EXCLUDED.Other_Cancer,
-  Depression = EXCLUDED.Depression,
-  Diabetes = EXCLUDED.Diabetes,
-  Arthritis = EXCLUDED.Arthritis,
-  Sex = EXCLUDED.Sex,
-  Age_Category = EXCLUDED.Age_Category,
-  Height = EXCLUDED.Height,
-  Weight = EXCLUDED.Weight,
-  BMI = EXCLUDED.BMI,
-  Smoking_History = EXCLUDED.Smoking_History,
-  Alcohol_Consumption = EXCLUDED.Alcohol_Consumption,
-  Fruit_Consumption = EXCLUDED.Fruit_Consumption,
-  Green_Vegetables_Consumption = EXCLUDED.Green_Vegetables_Consumption,
-  FriedPotato_Consumption = EXCLUDED.FriedPotato_Consumption,
-  last_update = EXCLUDED.last_update;
+

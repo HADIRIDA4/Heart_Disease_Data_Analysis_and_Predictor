@@ -52,7 +52,7 @@ INSERT INTO target_schema.dim_switzerland_study
 )
 ON CONFLICT (ID)
 DO UPDATE SET
-  ID = EXCLUDED.ID,
+
   HeartDisease = EXCLUDED.HeartDisease,
   BMI = EXCLUDED.BMI,
   Smoking = EXCLUDED.Smoking,

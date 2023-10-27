@@ -1,0 +1,9 @@
+psycopg2
+pandas
+numpy
+sickit-learn
+datetime 
+xgboost
+pickle
+modeljob
+tkinter
