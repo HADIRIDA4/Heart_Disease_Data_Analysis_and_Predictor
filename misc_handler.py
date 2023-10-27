@@ -22,20 +22,32 @@ def enum_to_lists(enum_class):
 
 
 
+import os
+import re
+from database_handler import execute_query
+from lookups import ErrorHandling
+
+
 def execute_sql_folder(db_session, sql_command_directory_path, etl_step, target_schema):
     sql_files = [sqlfile for sqlfile in os.listdir(sql_command_directory_path) if sqlfile.endswith('.sql')]
-    sorted_sql_files = sorted(sql_files, key=lambda x: int(x[1:x.index('-')]))
+    sorted_sql_files = sorted(sql_files, key=lambda x: int(re.search(r'V(\d+)\s*__\s*(\w+)', x).group(1)))
     counter = 0
     for sql_file in sorted_sql_files:
-        counter+=1
-        file_title = sql_file.split('-')
-        if file_title[1] == etl_step.value:
-            with open(os.path.join(sql_command_directory_path,sql_file), 'r') as file:
-                sql_query = file.read()
-                sql_query = sql_query.replace('target_schema', target_schema.value)
-                return_val = execute_query(db_session= db_session, query= sql_query)
-                if not return_val == ErrorHandling.NO_ERROR:
-                    raise Exception(f"Error executing SQL File on = " +  str(sql_file))
+        counter += 1
+        match = re.search(r'V(\d+)\s*__\s*(\w+)', sql_file)
+        if match:
+            version, step = match.groups()
+            step = step.split('_')[0]
+            print(step)
+            if step == etl_step.value:
+                with open(os.path.join(sql_command_directory_path, sql_file), 'r') as file:
+                    sql_query = file.read()
+                    sql_query = sql_query.replace('target_schema', target_schema.value)
+                    print(sql_query)
+                  
+                    return_val = execute_query(db_session=db_session, query=sql_query)
+                    if not return_val == ErrorHandling.NO_ERROR:
+                        raise Exception(f"Error executing SQL File on = " + str(sql_file))
                 
 
                 
