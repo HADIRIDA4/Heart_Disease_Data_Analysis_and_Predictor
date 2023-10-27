@@ -47,6 +47,21 @@ class studies(Enum):
 
 
 
+class links(Enum):
+  DISEASE_CATEGORY ="https://drive.google.com/file/d/11DNcehV12u6YCt_lMpuL5FAP3PuRx3Ri/view?usp=drive_link"
+  DISEASE ="https://drive.google.com/file/d/13ms6gD8NdZNo0X8n9NV-ncTX-MDZHAci/view?usp=sharing"
+  EPIDEMIOLOGY="https://drive.google.com/file/d/1DxJzOuell6qIxZaSwIrvkjQpU-AXktbu/view?usp=sharing"
+  FRAMINGHAM_STUDY="https://drive.google.com/file/d/1Ab5vh45YOEHclEqnMogO9BcYA5_qTkEg/view?usp=sharing"
+  CLEVELAND_PREDICTION ="https://drive.google.com/file/d/1ZngQXrwS7xxxq-Yjp_tJtgY-2c5l9tr3/view?usp=drive_link"
+  PREDICTION="https://drive.google.com/file/d/1Uo0Kt_oKFL6aI-a_uqV8HfMu1HQ6aXQo/view?usp=sharing"
+  LOCATION="https://drive.google.com/file/d/1rIfQRJRXaugRoj1Xw4nYZZS7IYG3-3Jk/view?usp=drive_link"
+  MEASURES="https://drive.google.com/file/d/1_fT69Pprh_HwDUWjj0tO4QUCqfn02gjh/view?usp=sharing"
+  SWITZERLAND_STUDY="https://drive.google.com/file/d/1xD0DYCNhvqpcYHX3fpoeCKFLqHLenk1f/view?usp=drive_link"
+  CVD_CLEANED="https://drive.google.com/file/d/1sSAfmx4jmjBWwgkJ9H7dTylrZu5zKofl/view?usp=drive_link"
+  
+
+
+
 
 class DestinationDatabase(Enum):
     SCHEMA_NAME = "dw_reporting"
