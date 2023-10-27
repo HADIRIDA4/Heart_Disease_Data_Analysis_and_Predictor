@@ -4,25 +4,36 @@ from logging_handler import show_error_message
 from dateutil.parser import parse
 import datetime
 import pandas as pd
+import json
+import os
 
+def read_config(file_path):
+    try:
+        with open(file_path, 'r') as file:
+            config_data = json.load(file)
+        return config_data
+    except FileNotFoundError:
+        print(f"Error: The file '{file_path}' was not found.")
+        return None
+    except json.JSONDecodeError:
+        print(f"Error: Failed to parse JSON data in '{file_path}'.")
+        return None
 
-config_dict = {
-    "database": "heart_dbb",
-    "host":"localhost",
-    "port":5432,
-    "user":"postgres",
-    "password": "fsd1234"
-}
+config_file_path = "database_config.config"
 
+config_dict = read_config(config_file_path)
 
 def create_connection():
     db_session = None
     try:
-        db_session = psycopg2.connect(**config_dict)
+        if config_dict is not None:
+            db_session = psycopg2.connect(**config_dict)
+        else:
+            print("Failed to load configuration data. Unable to connect to the database.")
     except Exception as e:
         error_string_prefix = ErrorHandling.DB_CONNECT_ERROR.value
         error_string_suffix = str(e)
-        show_error_message(error_string_prefix, error_string_suffix)
+        print(error_string_prefix + error_string_suffix)
     finally:
         return db_session
 
