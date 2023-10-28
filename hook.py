@@ -7,10 +7,10 @@ from logging_handler import show_error_message
 
 
 
-def create_etl_checkpoint(db_session):
+def create_etl_checkpoint(db_session,target_schema,table):
     try:
-        query = """
-            CREATE TABLE IF NOT EXISTS dw_reporting.etl_checkpoint
+        query = f"""
+            CREATE TABLE IF NOT EXISTS f{target_schema}.{table}
             (
                 etl_last_run_date TIMESTAMP
             )
@@ -45,10 +45,10 @@ def insert_or_update_etl_checkpoint(db_session,does_etl_time_exists, etl_date = 
 
 
 
-def return_etl_last_updated_date(db_session):
+def return_etl_last_updated_date(db_session,target_schema,table):
 
     does_etl_time_exists = False
-    query = "SELECT etl_last_run_date FROM dw_reporting.etl_checkpoint ORDER BY etl_last_run_date DESC LIMIT 1"
+    query = f"SELECT etl_last_run_date FROM {target_schema}.{table} ORDER BY etl_last_run_date DESC LIMIT 1"
 
     try:
 
@@ -88,3 +88,4 @@ def execute_hook(df_title,source):
         error_prefix = ErrorHandling.HOOK_SQL_ERROR
         show_error_message(error_prefix.value, suffix)
         raise Exception("Important Step Failed")
+    
