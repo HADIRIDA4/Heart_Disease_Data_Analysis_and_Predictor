@@ -138,6 +138,11 @@ A central dashboard where viewers can view:
 
 <br><br>
 
+1. SQL: SQL was used for efficient data retrieval and manipulation, facilitating the organization and preprocessing of medical data for analysis.
+2. Python: Python's versatility was crucial for data extraction, transformation, and loading (ETL) tasks, allowing the creation of predictive models and statistical analysis, contributing to a comprehensive understanding of heart disease factors.
+3. DAX (Data Analysis Expressions): DAX and Power Query seamlessly integrated with Power BI, enabling the creation of dynamic, interactive reports and dashboards. DAX provided powerful calculations and expressions.
+4. Power Query: Power Query was essential for data transformation and cleansing, ensuring clean and accurate data for analysis and report generation.
+
 ### Machine Learning (ML) component
 
 Using sickit-learn, we analyze the health data, training predictive models and deploying them for real-time predictions.
@@ -177,7 +182,7 @@ ML model
 
 <img src= "readme\predicting and evaluating.png" id="Stack"/>
 
-#### evaluating
+#### evaluating4
 
 <img src= "readme\evaluating.png" id="Stack"/>
 
