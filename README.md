@@ -68,7 +68,7 @@
 
 | LogIn                       |
 | --------------------------- |
-| ![Login](readme\logger.png) |
+| ![LogIn](readme\logger.png) |
 
 ### Data Tables Schema
 
