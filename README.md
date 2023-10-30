@@ -66,9 +66,9 @@
 
 ### Logger File
 
-| LogIn                       |
-| --------------------------- |
-| ![LogIn](readme\logger.png) |
+| LogIn                         |
+| ----------------------------- |
+| ![Login](readme\logger_2.png) |
 
 ### Data Tables Schema
 
