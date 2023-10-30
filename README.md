@@ -66,9 +66,9 @@
 
 ### Logger File
 
-| LogIn                         |
-| ----------------------------- |
-| ![Login](readme\logger_2.png) |
+| LogIn                             |
+| --------------------------------- |
+| ![Login](readme\epidemiology.png) |
 
 ### Data Tables Schema
 
