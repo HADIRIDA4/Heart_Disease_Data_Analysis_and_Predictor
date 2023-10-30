@@ -1,44 +1,25 @@
-from database_handler import execute_query, create_connection
-import misc_handler
-from lookups import DestinationDatabase
-from misc_handler import enum_to_lists
-from lookups import studies
-from lookups import ETLStep
-from lookups import ErrorHandling
-from logging_handler import show_error_message
+from misc_handler import *
+from lookups import *
+from database_handler import *
+import logging
 
-def truncate_staging_tables(source_name,schema_name, table_list, db_session):
-    for table in table_list:
+
+def truncate_staging_tables(db_name, schema_name, links):
+    db_session = create_connection()
+    # source_name = source_name.value
+    for table in return_lookup_items_as_dict(links).keys():
+        dst_table = f"{schema_name}.stg_{db_name}_{table}"
         truncate_query = f"""
-        DO $$ 
-        DECLARE
-            index_to_drop TEXT;
-        BEGIN
-            IF EXISTS (SELECT 1 FROM information_schema.tables WHERE table_schema = '{schema_name.value}' AND table_name = '{table}') THEN
-                TRUNCATE TABLE {schema_name.value}.{table};
-                RAISE NOTICE 'Table truncated successfully.';
-                SELECT 
-                    CONCAT('{schema_name.value}.',indexname) 
-                INTO index_to_drop
-                FROM pg_indexes 
-                WHERE tablename = '{table}'
-                AND SUBSTRING(indexname FROM 1 FOR 4) = 'idx_';
-                IF index_to_drop IS NOT NULL THEN
-                    EXECUTE 'DROP INDEX ' || index_to_drop;
-                ELSE 
-                    RAISE NOTICE 'Index not found';
-                END IF;
-            ELSE
-                RAISE NOTICE 'Table does not exist.';
-            END IF;
-        END $$;
-            """
+        TRUNCATE TABLE  {dst_table}"""
         execute_query(db_session, truncate_query)
 
 
-
 def execute_posthook():
-    db_session = create_connection()
-    df_title,source=enum_to_lists(studies)
-    tables = misc_handler.create_insert_sql(db_session,DestinationDatabase.DATABASE_NAME,df_title,source, ETLStep.POSTHOOK)
-    truncate_staging_tables(DestinationDatabase.DATABASE_NAME,DestinationDatabase.SCHEMA_NAME, tables, db_session)
+    truncate_staging_tables(
+        DestinationDatabase.DATABASE_NAME.value,
+        DestinationDatabase.SCHEMA_NAME.value,
+        links,
+    )
+
+
+logging.info(" Successfully truncated  staging tables   ")

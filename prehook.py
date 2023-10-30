@@ -1,25 +1,48 @@
 import os
-from database_handler import return_query,execute_query, create_connection, close_connection,return_data_as_df
-from ml_enviroment import execute_ml_classification_prediction
-from pandas_data_handler import return_create_statement_from_df,return_insert_into_sql_statement_from_df
-from misc_handler import execute_sql_folder,create_insert_sql,enum_to_lists
-from lookups import ErrorHandling, InputTypes,DestinationDatabase,ETLStep,studies
+from database_handler import (
+    create_connection,
+    close_connection,
+)
+from ml_handler import execute_ml_classification_prediction
+from misc_handler import execute_sql_folder, create_insert_sql
 from logging_handler import show_error_message
-import pandas as pd
-from  lookups import *
+from lookups import *
+import logging
 
-def execute_prehook(sql_command_directory_path = './SQL_Commands',data_source="csv\heart_statlog_cleveland_hungary_final.csv"):
+
+def execute_prehook(sql_command_directory_path="./SQL_Commands"):
     try:
-        
         db_session = create_connection()
-        execute_ml_classification_prediction(data_source, Output_Directory.CSV.value)
-        execute_sql_folder(db_session, sql_command_directory_path, ETLStep.PRE_HOOK, DestinationDatabase.SCHEMA_NAME)
-        df_title,source=enum_to_lists(studies)
-        create_insert_sql(db_session, DestinationDatabase.DATABASE_NAME, df_title,source,etl_step=ETLStep.PRE_HOOK,input_type=InputTypes.CSV)
+
+        execute_sql_folder(
+            db_session,
+            sql_command_directory_path,
+            ETLStep.PRE_HOOK,
+            DestinationDatabase.SCHEMA_NAME,
+        )
+        logging.info(
+            " PREHOOK SQL FOLDER WAS Successfully executed :Schema was created ! "
+        )
+        execute_ml_classification_prediction(
+            "testing_csv\heart_statlog_cleveland_hungary_final.csv",
+            r"C:\Users\Lenovo\Pictures\Heart_Disease_Data_Analysis_and_Predictor\csv",
+        )
+        logging.info(
+            " PREHOOK SQL FOLDER WAS Successfully executed :  Prediction and classification were executed! "
+        )
+
+        create_insert_sql(
+            db_session,
+            DestinationDatabase.DATABASE_NAME,
+            links,
+            etl_step=ETLStep.PRE_HOOK,
+            input_type=InputTypes.CSV,
+        )
+        logging.info(
+            " PREHOOK SQL FOLDER WAS Successfully executed : SQL Staging tables were created ! "
+        )
         close_connection(db_session)
-        return df_title,source 
-
-
+        return
     except Exception as error:
         suffix = str(error)
         error_prefix = ErrorHandling.PREHOOK_SQL_ERROR
