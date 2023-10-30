@@ -1,13 +1,11 @@
 import os
 from lookups import ErrorHandling, ETLStep, InputTypes, links
 from database_handler import (
-    return_query,
     execute_query,
-    create_connection,
-    close_connection,
     return_data_as_df,
 )
 from pandas_data_handler import (
+    download_csv_to_dataframe,
     return_create_statement_from_df,
     return_insert_into_sql_statement_from_df,
 )
@@ -70,7 +68,7 @@ def create_insert_sql(
         lookups_items = return_lookup_items_as_dict(links)
 
         for table_name, source_df in lookups_items.items():
-            dataframe_source = return_data_as_df(source_df, input_type)
+            dataframe_source = download_csv_to_dataframe(source_df)
             dst_table = f"stg_{source_name}_{table_name}"
             staging_df = pd.DataFrame()
             if etl_step == ETLStep.PRE_HOOK:
@@ -79,7 +77,6 @@ def create_insert_sql(
                 )
 
                 execute_query(db_session=db_session, query=create_stmt)
-                print("+1")
 
             elif etl_step == ETLStep.HOOK:
                 dataframe_source["date_added"] = pd.to_datetime(

@@ -7,7 +7,7 @@ from database_handler import (
 
 from lookups import ErrorHandling, InputTypes, ETLStep, DestinationDatabase
 from datetime import datetime
-from misc_handler import  execute_sql_folder, create_insert_sql
+from misc_handler import execute_sql_folder, create_insert_sql
 from logging_handler import show_error_message
 from lookups import *
 import logging
@@ -93,12 +93,13 @@ def execute_hook():
             db_session, "SQL_COMMANDS", ETLStep.HOOK, DestinationDatabase.SCHEMA_NAME
         )
         logging.info("Hook execute folder was executed ")
-        logging.info("Data were successfully inserted to relational database !")
+        logging.info("Data was successfully inserted to relational database !")
         # last step
         insert_or_update_etl_checkpoint(
             db_session, does_etl_time_exists, datetime.now()
         )
-        logging.info(" successfully Updated check point ")
+        logging.info(" Successfully Updated check point ")
+
         close_connection(db_session)
 
     except Exception as error:

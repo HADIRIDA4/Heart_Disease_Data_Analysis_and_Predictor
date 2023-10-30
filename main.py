@@ -1,4 +1,3 @@
-import prehook
 import logging
 
 logging.basicConfig(
@@ -14,5 +13,6 @@ from posthook import *
 
 
 execute_prehook()
+
 execute_hook()
 execute_posthook()

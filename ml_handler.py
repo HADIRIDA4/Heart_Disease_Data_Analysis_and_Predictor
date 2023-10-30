@@ -3,6 +3,8 @@ import warnings
 from sklearn.neighbors import KNeighborsClassifier
 from datetime import datetime
 
+from pandas_data_handler import download_csv_to_dataframe
+
 warnings.filterwarnings("ignore")
 
 # data wrangling & pre-processing
@@ -56,7 +58,7 @@ import pandas as pd
 
 
 def data_processing(Source, drop_null=True):
-    dt = pd.read_csv(Source)
+    dt = download_csv_to_dataframe(Source)
     dt.columns = dt.columns.str.replace(" ", "_")
 
     dt["chest_pain_type"] = dt["chest_pain_type"].map(
@@ -193,17 +195,12 @@ def feature_transformation(X_train, X_test, y_train, xgb_model):
     )
 
     # Add a column with model names
-    
 
     # Reset the index
     feature_importances_df = feature_importances_df.transpose()
-    feature_importances_df['Model'] = model_names
-
-    
-    
+    feature_importances_df["Model"] = model_names
 
     return feature_importances_df
-
 
 
 def ml_prediction(data_source):
@@ -295,7 +292,7 @@ def execute_ml_classification_prediction(data_source, output_directory):
     y_test, y_preds = model_building(X_train, X_test, y_train, y_test)
     xgb_model = xgb.XGBClassifier(n_estimators=500)
     feature_importance_df = feature_transformation(X_train, X_test, y_train, xgb_model)
-  
+
     models_result_df = calculate_metrics(y_preds, y_test)
     metrics_df, confusion_df = ml_prediction(data_source)
     current_date = datetime.now()

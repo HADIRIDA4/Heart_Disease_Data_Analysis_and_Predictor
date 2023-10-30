@@ -21,15 +21,14 @@ def execute_prehook(sql_command_directory_path="./SQL_Commands"):
             DestinationDatabase.SCHEMA_NAME,
         )
         logging.info(
-            " PREHOOK SQL FOLDER WAS Successfully executed :Schema was created ! "
+            " PREHOOK SQL FOLDER WAS Successfully executed : Schema was created ! "
         )
+
         execute_ml_classification_prediction(
-            "testing_csv\heart_statlog_cleveland_hungary_final.csv",
-            r"C:\Users\Lenovo\Pictures\Heart_Disease_Data_Analysis_and_Predictor\csv",
+            "https://storage.googleapis.com/csv-links/heart_statlog_cleveland_hungary_final.csv",
+            "ML_output",
         )
-        logging.info(
-            " PREHOOK SQL FOLDER WAS Successfully executed :  Prediction and classification were executed! "
-        )
+        logging.info(" Prediction and classification were executed! ")
 
         create_insert_sql(
             db_session,
