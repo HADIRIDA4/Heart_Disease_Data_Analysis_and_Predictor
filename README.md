@@ -64,6 +64,9 @@
 
 <!-- Prototyping -->
 
+<a  name="prototyping" ></a>
+<img  src="readme/title3.svg" id="prototyping"/>
+
 ### Logger File
 
 | LogIn |
@@ -75,29 +78,6 @@
 
 <img  src="readme\Copy of db_Heart.png"  id="prototyping"/>
 
-### Power BI Report Screenshots
-
-#### landing Page
-
-<img src= "readme\Landing_Page.png" id="prototyping"/>
-
-#### Overview Page
-
-<img src= "readme\Overview.png" id="prototyping"/>
-
-#### Epidemiology Page
-
-<img src= "readme\epidemiology.png" id="prototyping"/>
-
-#### Etiology Page
-
-<img src= "readme\etiology.png" id="prototyping"/>
-
-#### Classification and Prediction Page
-
-<img src= "readme\classification and evaluating.png" id="prototyping"/>
-
-<br><br>
 <br><br>
 
 <!-- Implementation -->
@@ -106,6 +86,37 @@
 <img  src="readme/title4.svg" id="#demo" />
 
 <br>
+
+## Power BI Report Screenshots
+
+### landing Page
+
+<img src= "readme\Landing_Page.png" id="prototyping"/>
+
+### Overview Page
+
+<img src= "readme\Overview.png" id="prototyping"/>
+
+### Epidemiology Page
+
+<img src= "readme\epidemiology.png" id="prototyping"/>
+
+### Etiology Page
+
+<img src= "readme\etiology.png" id="prototyping"/>
+
+### Classification and Prediction Page
+
+<img src= "readme\classification and evaluating.png" id="prototyping"/>
+
+<br><br>
+
+<!-- Tech stacks -->
+
+<a  name="Stack"  ></a>
+<img  src="readme\title5.svg" id="Stack"/>
+
+<br><br>
 
 Heart Disease Analytics is built using the following technologies:
 
@@ -132,64 +143,12 @@ A central dashboard where viewers can view:
 
 <br>
 
-<!-- Tech stacks -->
+<!-- How To Run -->
 
-<a  name="Stack"  ></a>
-<img  src="readme\title5.svg" id="Stack"/>
+<a  name="How To Run "  ></a>
+<img  src="readme\title6.svg" id="Run"/>
 
 <br><br>
-
-1. SQL: SQL was used for efficient data retrieval and manipulation, facilitating the organization and preprocessing of medical data for analysis.
-2. Python: Python's versatility was crucial for data extraction, transformation, and loading (ETL) tasks, allowing the creation of predictive models and statistical analysis, contributing to a comprehensive understanding of heart disease factors.
-3. DAX (Data Analysis Expressions): DAX and Power Query seamlessly integrated with Power BI, enabling the creation of dynamic, interactive reports and dashboards. DAX provided powerful calculations and expressions.
-4. Power Query: Power Query was essential for data transformation and cleansing, ensuring clean and accurate data for analysis and report generation.
-
-### Machine Learning (ML) component
-
-Using sickit-learn, we analyze the health data, training predictive models and deploying them for real-time predictions.
-
-Data Collection & Preprocessing.
-Model Selection & Training
-Model Evaluation.
-Model Deployment
-
-ML model
-
-#### Data Processing
-
-<img src= "readme\Data Processing.png" id="Stack"/>
-
-#### Training
-
-<img src= "readme\training.png" id="Stack"/>
-
-#### Predicting and Evaluating
-
-<img src= "readme\predicting and evaluating.png" id="Stack"/>
-
-#### evaluating
-
-<img src= "readme\evaluating.png" id="Stack"/>
-
-#### Data Processing
-
-<img src= "readme\Data Processing.png" id="Stack"/>
-
-#### Training
-
-<img src= "readme\training.png" id="Stack"/>
-
-#### Predicting and Evaluating
-
-<img src= "readme\predicting and evaluating.png" id="Stack"/>
-
-#### evaluating4
-
-<img src= "readme\evaluating.png" id="Stack"/>
-
-### model deployment
-
-<img src= "readme\deployment.png" id="Stack"/>
 
 ### Prerequisites
 
@@ -227,4 +186,7 @@ git clone https://github.com/HADIRIDA4/Heart_Disease_Data_Analysis_and_Predictor
 
 You should be able to check the app.log file to see the ETL work.
 
-As for the dashboard access: Please use this link "public powerbi link" to access your data.
+**Run the Machine Learning Model**:
+`ml_model.py`
+
+As for the dashboard access: Please use this link "[public powerbi link ](https://app.powerbi.com/view?r=eyJrIjoiYzE3Nzg2MDItNDY4MC00ZDA6LTlkMGYtNTQ5M2YxM2U3ODVlIiwidCI6IjJhZDk2OTM0LTQzZTUtNDFjMi05NzYxLWYzMzVmZTIxNGNjMyIsImMiOjl9)" to access your data.
