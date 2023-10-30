@@ -1,4 +1,4 @@
-TN,FP,FN,TP,last_update
-80,32,10,113,2019-12-31
-83,29,12,111,2019-12-31
-88,24,30,93,2019-12-31
+Model_Name,TN,FP,FN,TP,date_added
+Random Forest Entropy,85,27,12,111,10/30/2023
+ExtraTreesClassifier,82,30,11,112,10/30/2023
+XGBoost,88,24,30,93,10/30/2023
