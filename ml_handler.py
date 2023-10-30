@@ -204,28 +204,17 @@ def feature_transformation(X_train, X_test, y_train, xgb_model):
 
 
 def ml_prediction(data_source):
-    # Load and preprocess the data
     dt = data_processing(data_source, drop_null=True)
     X_train, X_test, y_train, y_test = training_preprocessing(dt)
-
-    # Train the Random Forest with entropy criterion
     rf_ent = RandomForestClassifier(criterion="entropy", n_estimators=100)
     rf_ent.fit(X_train, y_train)
-
-    # Train an ExtraTreesClassifier
     extra_trees = ExtraTreesClassifier(n_estimators=100)
     extra_trees.fit(X_train, y_train)
-
-    # Train an XGBoost classifier
     xgb_model = xgb.XGBClassifier()
     xgb_model.fit(X_train, y_train)
-
-    # Make predictions on the test data
     rf_ent_predictions = rf_ent.predict(X_test)
     extra_trees_predictions = extra_trees.predict(X_test)
     xgb_predictions = xgb_model.predict(X_test)
-
-    # Calculate evaluation metrics for each model
     rf_ent_metrics = {
         "Accuracy": accuracy_score(y_test, rf_ent_predictions) * 100,
         "Precision": precision_score(y_test, rf_ent_predictions) * 100,
@@ -253,24 +242,13 @@ def ml_prediction(data_source):
         extra_trees_metrics, index=["ExtraTreesClassifier"]
     )
     xgb_metrics_df = pd.DataFrame(xgb_metrics, index=["XGBoost"])
-
     model_names = ["Random Forest Entropy", "ExtraTreesClassifier", "XGBoost"]
-
-    # Create a DataFrame with a single column
-
-    # Concatenate the DataFrames to create a single result DataFrame for metrics
     metrics_df = pd.concat([rf_ent_metrics_df, extra_trees_metrics_df, xgb_metrics_df])
     metrics_df.insert(0, "Model_Name", model_names)
-
-    # Reset the index to align with the model names
     metrics_df = metrics_df.reset_index(drop=True)
-
-    # Create confusion matrices for each model
     rf_ent_confusion = confusion_matrix(y_test, rf_ent_predictions)
     extra_trees_confusion = confusion_matrix(y_test, extra_trees_predictions)
     xgb_confusion = confusion_matrix(y_test, xgb_predictions)
-
-    # Create a DataFrame for confusion matrices with 3 rows and 4 columns
     confusion_df = pd.DataFrame(
         data=[
             rf_ent_confusion.ravel(),

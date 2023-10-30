@@ -15,11 +15,11 @@ def truncate_staging_tables(db_name, schema_name, links):
 
 
 def execute_posthook():
+    logging.info(" Prehook Phase Started ")
+
     truncate_staging_tables(
         DestinationDatabase.DATABASE_NAME.value,
         DestinationDatabase.SCHEMA_NAME.value,
         links,
     )
-
-
-logging.info(" Successfully truncated  staging tables   ")
+    logging.info("  Truncated Staging Tables ")

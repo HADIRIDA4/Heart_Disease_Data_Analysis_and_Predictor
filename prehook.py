@@ -11,24 +11,24 @@ import logging
 
 
 def execute_prehook(sql_command_directory_path="./SQL_Commands"):
+    logging.info(" Executing Prehook :")
     try:
+        logging.info(" Creating Database Connection :")
         db_session = create_connection()
-
+        logging.info(" Step 2 Creating Schema :")
         execute_sql_folder(
             db_session,
             sql_command_directory_path,
             ETLStep.PRE_HOOK,
             DestinationDatabase.SCHEMA_NAME,
         )
-        logging.info(
-            " PREHOOK SQL FOLDER WAS Successfully executed : Schema was created ! "
-        )
+        logging.info(" Step 3 Executing ML Classification and Prediction")
 
         execute_ml_classification_prediction(
             "https://storage.googleapis.com/csv-links/heart_statlog_cleveland_hungary_final.csv",
             "ML_output",
         )
-        logging.info(" Prediction and classification were executed! ")
+        logging.info(" Step 4 Creating Staging Tables")
 
         create_insert_sql(
             db_session,
@@ -37,10 +37,10 @@ def execute_prehook(sql_command_directory_path="./SQL_Commands"):
             etl_step=ETLStep.PRE_HOOK,
             input_type=InputTypes.CSV,
         )
-        logging.info(
-            " PREHOOK SQL FOLDER WAS Successfully executed : SQL Staging tables were created ! "
-        )
+        logging.info(" Step 5 Closing Connection")
+
         close_connection(db_session)
+
         return
     except Exception as error:
         suffix = str(error)

@@ -28,32 +28,6 @@
 
 <br>
 
-Healthcare Practitioners:
-
-Interested in project insights to improve patient care, identify at-risk populations, and enhance clinical decision-making.
-Use findings for early intervention and personalized treatment strategies.
-Benefit from understanding disease trends to allocate resources effectively.
-Policy Makers:
-
-Utilize project data to inform evidence-based public health policies and initiatives.
-Address disease prevalence, risk factors, and preventive measures.
-Make informed decisions to enhance community health outcomes.
-Data Analysts and Scientists:
-
-Analyze data for research, modeling, and in-depth understanding of cardiovascular disease trends.
-Develop predictive models to identify risk factors and potential interventions.
-Contribute to scientific advancements in the field.
-Public Health Officials:
-
-Leverage project insights for public health campaigns and interventions.
-Prioritize resource allocation for prevention and awareness programs.
-Monitor and respond to changing disease patterns effectively.
-General Public:
-
-Gain knowledge about cardiovascular disease risks and prevention.
-Make informed lifestyle choices to reduce the risk of heart-related conditions.
-Understand the impact of heart health on personal well-being.
-
 ### User Stories
 
 1.  Healthcare Practitioners:
@@ -89,31 +63,50 @@ Understand the impact of heart health on personal well-being.
 <br><br>
 
 <!-- Prototyping -->
-<img  src="readme\title3.svg"  id="prototyping"/>
-
-> We have designed our projects to webscrape, through an ETL project and including it in a PowerBI Sample Dashboard,
 
 ### Logger File
 
-| Bins Map screen | Dashboard screen | Bin Management screen |
+| LogIn                       |
+| --------------------------- |
+| ![Login](readme\logger.png) |
 
-| ---| ---| ---|
-
-| ![Landing](./readme/wireframes/web/map.png) | ![Admin Dashboard](./readme/wireframes/web/dashboard.png) | ![User Management](./readme/wireframes/web/bin_crud.png) |
-
-### Data Flow Diagrams
+### Data Tables Schema
 
 <img  src="readme\Copy of db_Heart.png"  id="prototyping"/>
+
+### Power BI Report Screenshots
+
+#### landing Page
+
+<img src= "readme\Landing_Page.png" id="prototyping"/>
+
+#### Overview Page
+
+<img src= "readme\Overview.png" id="prototyping"/>
+
+#### Epidemiology Page
+
+<img src= "readme\epidemiology.png" id="prototyping"/>
+
+#### Etiology Page
+
+<img src= "readme\etiology.png" id="prototyping"/>
+
+#### Classification and Prediction Page
+
+<img src= "readme\classification and evaluating.png" id="prototyping"/>
+
+<br><br>
 <br><br>
 
-<!-- Tech stacks -->
+<!-- Implementation -->
 
-<a  name="stacks"></a>
-<img  src="readme/title4.svg" id="stacks" />
+<a  name="Demo"></a>
+<img  src="readme/title4.svg" id="#demo" />
 
 <br>
 
-Bin Tracker is built using the following technologies:
+Heart Disease Analytics is built using the following technologies:
 
 ## Frontend
 
@@ -138,50 +131,10 @@ A central dashboard where viewers can view:
 
 <br>
 
-<!-- Implementation -->
+<!-- Tech stacks -->
 
-<a  name="Demo"  ></a>
-<img  src="readme\title5.svg" id="#demo"/>
-
-> Show command line of ETL performance - Logger view
-
-### App
-
-| Dashboard Screen | Create Bin Screen |
-
-| ---| ---|
-
-| ![Landing](./readme/implementation/dashboard.gif) | ![fsdaf](./readme/implementation/create_bin.gif) |
-
-| Bins to Map Screen |
-
-| ---|
-
-| ![fsdaf](./readme/implementation/map.gif) |
-
-| Filter Bins Screen | Update Pickup Time Screen |
-
-| ---| ---|
-
-| ![Landing](./readme/implementation/filter_bins.gif) | ![fsdaf](./readme/implementation/update_pickup.gif) |
-
-| Announcements Screen |
-
-| ---|
-
-| ![fsdaf](./readme/implementation/message.gif)|
-
-| Change Map Screen | Edit Profile Screen |
-
-| ---| ---|
-
-| ![Landing](./readme/implementation/change_map.gif) | ![fsdaf](./readme/implementation/edit_profile.gif) |
-
-| Landing Screen |
-
-| ---|
-
-| ![fsdaf](./readme/implementation/landing.gif)|
+<a  name="Stack"  ></a>
+<img  src="readme\title5.svg" id="Stack"/>
 
 <br><br>
 
@@ -194,26 +147,43 @@ Model Selection & Training
 Model Evaluation.
 Model Deployment
 
-| ML Flow Diagram|
+ML model
 
-| ---| ---|
+#### Data Processing
 
-|![fsdaf](./readme/implementation/arduino.gif)|![fsdaf](./readme/implementation/circuit.png)
+<img src= "readme\Data Processing.png" id="Stack"/>
 
-| Data Transfer Demo |
+#### Training
 
-| ---|
+<img src= "readme\training.png" id="Stack"/>
 
-| ![fsdaf](./readme/implementation/arduino_data.png) |
+#### Predicting and Evaluating
 
-<br><br>
+<img src= "readme\predicting and evaluating.png" id="Stack"/>
 
-<!-- How to run -->
+#### evaluating
 
-<a  name="run"  ></a>
-<img  src="readme\title6.svg" id="run"/>
+<img src= "readme\evaluating.png" id="Stack"/>
 
-> To set up ## **Heart Disease and Predictor** follow these steps:
+#### Data Processing
+
+<img src= "readme\Data Processing.png" id="Stack"/>
+
+#### Training
+
+<img src= "readme\training.png" id="Stack"/>
+
+#### Predicting and Evaluating
+
+<img src= "readme\predicting and evaluating.png" id="Stack"/>
+
+#### evaluating
+
+<img src= "readme\evaluating.png" id="Stack"/>
+
+### model deployment
+
+<img src= "readme\deployment.png" id="Stack"/>
 
 ### Prerequisites
 
@@ -225,7 +195,7 @@ Model Deployment
 
 **Dependencies**:
 
-- Install the necessary Python libraries: `pandas`, `scikit-learn`, `numpy`, `xgboost`.
+- Install the necessary Python libraries: `Pandas`, `scikit-learn`, `numpy`, `xgboost`.
 - Install database connectors/drivers for PostgreSQL.
 
 ### **Setting Up the Environment**:

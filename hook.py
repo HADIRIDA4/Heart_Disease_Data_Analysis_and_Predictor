@@ -71,15 +71,19 @@ def return_etl_last_updated_date(db_session, target_schema, table):
 
 
 def execute_hook():
+    logging.info(" Executing Hook :")
     try:
+        logging.info(" Step 1:Creating Database Connection :")
         db_session = create_connection()
+        logging.info(" Step 2:Creating ETL Checkpoint :")
         create_etl_checkpoint(db_session)
+        logging.info(" Step 3:Retrieving Etl Last Update Date")
         etl_date, does_etl_time_exists = return_etl_last_updated_date(
             db_session,
             DestinationDatabase.SCHEMA_NAME.value,
             ETL_CHECK_POINT_TABLE.ETL_CHECKPOINT.value,
         )
-
+        logging.info("step 4 : Inserting New Data into Staging Tables  ")
         create_insert_sql(
             db_session,
             DestinationDatabase.DATABASE_NAME,
@@ -88,18 +92,16 @@ def execute_hook():
             InputTypes.CSV,
             etl_date,
         )
-        logging.info(" Successfully inserted new data into the staging tables   ")
+        logging.info("5tep 5 : Creating / Updating Tables   ")
         execute_sql_folder(
             db_session, "SQL_COMMANDS", ETLStep.HOOK, DestinationDatabase.SCHEMA_NAME
         )
-        logging.info("Hook execute folder was executed ")
-        logging.info("Data was successfully inserted to relational database !")
-        # last step
+        logging.info("Step 6 : Inserting or Updating ETL Check Point  ")
         insert_or_update_etl_checkpoint(
             db_session, does_etl_time_exists, datetime.now()
         )
-        logging.info(" Successfully Updated check point ")
 
+        logging.info("Step 7  : Closing Connection  ")
         close_connection(db_session)
 
     except Exception as error:
