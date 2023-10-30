@@ -33,32 +33,29 @@ class InputTypes(Enum):
 
 
 class links(Enum):
-    DISEASE_CATEGORY = (
-        "https://drive.google.com/uc?id=1wKg3cAFfZPPF36Li-MQX-EEA7ZLXT_wv"
+    DISEASE_CATEGORY = "https://storage.googleapis.com/csv-links/disease_category.csv"
+    DISEASE = "https://storage.googleapis.com/csv-links/disease.csv"
+    EPIDEMIOLOGY = (
+        "https://storage.googleapis.com/csv-links-2/epidemiological%20data.csv"
     )
-    DISEASE = "https://drive.google.com/uc?id=1CCTSodS_A6XcCXKTkbcRy__H33X5NAID"
-    EPIDEMIOLOGY = "https://drive.google.com/uc?id=1ujGL5F3V7PMaYSo7BtJ0AGHX2kgJg_3m"
-    FRAMINGHAM_STUDY = (
-        "https://drive.google.com/uc?id=1--HEe4xJgPP2EAE-2V8WC3l0WBqBVI_f"
-    )
-    LOCATION = "https://drive.google.com/uc?id=13KvsA8rPVHiYtyyI9wTTGymFjnMk5u3j"
-    MEASURES = "https://drive.google.com/uc?id=1BpEenYp0pZw0DAEajMJV39a-_A_IpRew"
-    SWITZERLAND_STUDY = (
-        "https://drive.google.com/uc?id=1XF9GZjP5xw1jjUCx3FhVT3AHPs2DbiY4"
-    )
-    CVD_CLEANED = "https://drive.google.com/uc?id=11yBqPXzNcOIfcgKtlCgMX8i4fno3OIq9"
-    confusion_results = (
-        "https://drive.google.com/uc?id=1itIYB75d0Su-46Ng59aqcGFiYxiJFZkU"
-    )
+    FRAMINGHAM_STUDY = "https://storage.googleapis.com/csv-links/Framingham_Study.csv"
+    LOCATION = "https://storage.googleapis.com/csv-links/location.csv"
+    MEASURES = "https://storage.googleapis.com/csv-links/measures.csv"
+    SWITZERLAND_STUDY = "https://storage.googleapis.com/csv-links-2/Switzerland.csv"
+
+    CVD_CLEANED = "https://storage.googleapis.com/csv-links-2/cleveland.csv"
+
+    confusion_results = "https://storage.googleapis.com/csv-links/confusion_results.csv"
     importance_features = (
-        "https://drive.google.com/uc?id=1DKCnrDq1IwHO6Ln10Ip6SY9nelz56rf0"
+        "https://storage.googleapis.com/csv-links/important_features.csv"
     )
-    metrics_reults = "https://drive.google.com/uc?id=15gxFEZZBPmj-_5giz1Ncv-k8ra7sdJ9s"
-    models_result = "https://drive.google.com/uc?id=12n4-FkXppt34uOgLVvgXiKVPm8O0nnAk"
+
+    metrics_reults = "https://storage.googleapis.com/csv-links/metrics_results.csv"
+    models_result = "https://storage.googleapis.com/csv-links/models_result.csv"
 
 
 class prediction_link(Enum):
-    PREDICTION = "https://drive.google.com/uc?id=1ZngQXrwS7xxxq-Yjp_tJtgY-2c5l9tr3"
+    PREDICTION = "https://storage.googleapis.com/csv-links/heart_statlog_cleveland_hungary_final.csv"
 
 
 class DestinationDatabase(Enum):
