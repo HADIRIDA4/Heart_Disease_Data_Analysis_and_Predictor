@@ -1,4 +1,4 @@
-<img  src="./readme/title1.svg"/>
+<img  src="readme\title1.svg"/>
 
 <div>
 
@@ -12,7 +12,7 @@
 <!-- project philosophy -->
 
 <a  name="philosophy" ></a>
-<img  src="./readme/title2.svg" id="project-philosophy"/>
+<img  src="readme/title2.svg" id="project-philosophy"/>
 
 > A Python-based ETL (Extract, Transform, Load) project aimed at processing data from various web sources, and subsequently storing it in a tabular database (PostgreSQL), with the objective of facilitating comprehensive analysis Disease disease data
 
@@ -89,7 +89,7 @@ Understand the impact of heart health on personal well-being.
 <br><br>
 
 <!-- Prototyping -->
-<img  src="./readme/title3.svg"  id="prototyping"/>
+<img  src="readme\title3.svg"  id="prototyping"/>
 
 > We have designed our projects to webscrape, through an ETL project and including it in a PowerBI Sample Dashboard,
 
@@ -103,24 +103,13 @@ Understand the impact of heart health on personal well-being.
 
 ### Data Flow Diagrams
 
-| Map screen | Dashboard screen | Bin Management screen |
-
-| ---| ---| ---|
-
-| ![Map](readme/mockups/web/map.png)| ![Map](./readme/mockups/web/dashboard.png)| ![Map](./readme/mockups/web/bin_crud.png)|
-
-| Announcements screen | Login screen | Landing screen |
-
-| ---| ---| ---|
-
-| ![Map](readme/mockups/web/announcements.png)| ![Map](./readme/mockups/web/login.png)| ![Map](./readme/mockups/web/landing.png)|
-
+<img  src="readme\Copy of db_Heart.png"  id="prototyping"/>
 <br><br>
 
 <!-- Tech stacks -->
 
 <a  name="stacks"></a>
-<img  src="./readme/title4.svg" id="stacks" />
+<img  src="readme/title4.svg" id="stacks" />
 
 <br>
 
@@ -152,7 +141,7 @@ A central dashboard where viewers can view:
 <!-- Implementation -->
 
 <a  name="Demo"  ></a>
-<img  src="./readme/title5.svg" id="#demo"/>
+<img  src="readme\title5.svg" id="#demo"/>
 
 > Show command line of ETL performance - Logger view
 
@@ -222,7 +211,7 @@ Model Deployment
 <!-- How to run -->
 
 <a  name="run"  ></a>
-<img  src="./readme/title6.svg" id="run"/>
+<img  src="readme\title6.svg" id="run"/>
 
 > To set up ## **Heart Disease and Predictor** follow these steps:
 
