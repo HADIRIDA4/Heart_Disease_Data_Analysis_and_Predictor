@@ -15,3 +15,54 @@
 2023-10-31 06:37:27,116 - INFO - Step 7  : Closing Connection  
 2023-10-31 06:37:27,116 - INFO -  Prehook Phase Started 
 2023-10-31 06:37:27,231 - INFO -   Truncated Staging Tables 
+2023-10-31 06:57:11,182 - INFO - NumExpr defaulting to 8 threads.
+2023-10-31 06:57:12,590 - INFO -  Executing Prehook :
+2023-10-31 06:57:12,590 - INFO -  Creating Database Connection :
+2023-10-31 06:57:12,645 - INFO -  Step 2 Creating Schema :
+2023-10-31 06:57:12,647 - INFO -  Step 3 Executing ML Classification and Prediction
+2023-10-31 06:57:18,658 - INFO -  Step 4 Creating Staging Tables
+2023-10-31 07:00:23,853 - INFO -  Step 5 Closing Connection
+2023-10-31 07:00:23,853 - INFO -  Executing Hook :
+2023-10-31 07:00:23,853 - INFO -  Step 1:Creating Database Connection :
+2023-10-31 07:00:23,900 - INFO -  Step 2:Creating ETL Checkpoint :
+2023-10-31 07:00:23,900 - INFO -  Step 3:Retrieving Etl Last Update Date
+2023-10-31 07:00:24,104 - INFO - step 4 : Inserting New Data into Staging Tables  
+2023-10-31 07:03:38,376 - INFO - 5tep 5 : Creating / Updating Tables   
+2023-10-31 07:03:38,388 - INFO - Step 6 : Inserting or Updating ETL Check Point  
+2023-10-31 07:03:38,388 - INFO - Step 7  : Closing Connection  
+2023-10-31 07:03:38,388 - INFO -  Prehook Phase Started 
+2023-10-31 07:03:38,520 - INFO -   Truncated Staging Tables 
+2023-10-31 10:52:23,697 - INFO - NumExpr defaulting to 8 threads.
+2023-10-31 10:52:32,395 - INFO - Executing Prehook :
+2023-10-31 10:52:32,395 - INFO - Creating Database Connection :
+2023-10-31 10:52:32,504 - INFO - Step 2 Creating Schema :
+2023-10-31 10:52:32,551 - INFO - Step 3 Executing ML Classification and Prediction
+2023-10-31 10:52:37,349 - INFO - Step 4 Creating Staging Tables
+2023-10-31 10:55:25,860 - INFO - Step 5 Closing Connection
+2023-10-31 10:55:25,860 - INFO - Executing Hook :
+2023-10-31 10:55:25,860 - INFO - Step 1:Creating Database Connection :
+2023-10-31 10:55:25,923 - INFO - Step 2:Creating ETL Checkpoint :
+2023-10-31 10:55:25,923 - INFO - Step 3:Retrieving Etl Last Update Date
+2023-10-31 10:55:26,486 - INFO - Step 4 : Inserting New Data into Staging Tables  
+2023-10-31 10:59:39,971 - INFO - 5tep 5 : Creating / Updating Tables   
+2023-10-31 10:59:40,088 - INFO - Step 6 : Inserting or Updating ETL Check Point  
+2023-10-31 10:59:40,088 - INFO - Step 7  : Closing Connection  
+2023-10-31 10:59:40,088 - INFO - Posthook Phase Started 
+2023-10-31 10:59:40,216 - INFO - Truncated Staging Tables 
+2023-10-31 17:16:18,886 - INFO - NumExpr defaulting to 8 threads.
+2023-10-31 17:16:23,135 - INFO -  Executing Prehook :
+2023-10-31 17:16:23,136 - INFO -  Creating Database Connection :
+2023-10-31 17:16:23,232 - INFO -  Step 2 Creating Schema :
+2023-10-31 17:16:23,267 - INFO -  Step 3 Executing ML Classification and Prediction
+2023-10-31 17:16:28,183 - INFO -  Step 4 Creating Staging Tables
+2023-10-31 17:25:42,353 - INFO -  Step 5 Closing Connection
+2023-10-31 17:25:42,353 - INFO -  Executing Hook :
+2023-10-31 17:25:42,353 - INFO -  Step 1:Creating Database Connection :
+2023-10-31 17:25:42,400 - INFO -  Step 2:Creating ETL Checkpoint :
+2023-10-31 17:25:42,400 - INFO -  Step 3:Retrieving Etl Last Update Date
+2023-10-31 17:25:42,952 - INFO - step 4 : Inserting New Data into Staging Tables  
+2023-10-31 17:41:19,133 - INFO - 5tep 5 : Creating / Updating Tables   
+2023-10-31 17:41:19,242 - INFO - Step 6 : Inserting or Updating ETL Check Point  
+2023-10-31 17:41:19,242 - INFO - Step 7  : Closing Connection  
+2023-10-31 17:41:19,242 - INFO -  Prehook Phase Started 
+2023-10-31 17:41:19,367 - INFO -   Truncated Staging Tables 
