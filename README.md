@@ -104,6 +104,7 @@
 ## Epidemiology Page
 
 <img src= "readme\epidemiology.png" id="prototyping"/>
+<img src= "readme\epidemiolgy.gif" id="prototyping"/>
 
 ## Etiology Page
 
