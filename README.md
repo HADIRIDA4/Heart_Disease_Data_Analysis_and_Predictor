@@ -69,9 +69,6 @@
 
 ### Logger File
 
-| LogIn |
-| ----- |
-
 <img  src="readme\logger.png"  id="prototyping"/>
 
 ### Data Tables Schema
