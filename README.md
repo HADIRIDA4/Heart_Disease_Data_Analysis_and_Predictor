@@ -15,9 +15,9 @@
 <img  src="readme/title2.svg" id="project-philosophy"/>
 <B>
 
-> A Python-based ETL (Extract, Transform, Load) project aimed at processing data from various web sources, and subsequently storing it in a tabular database (PostgreSQL), with the objective of facilitating comprehensive analysis of Heart Disease
+> <b>A Python-based ETL (Extract, Transform, Load) project aimed at processing data from various web sources, and subsequently storing it in a tabular database (PostgreSQL), with the objective of facilitating comprehensive analysis of Heart Disease<b>
 
-> Heart Disease Analysis and Predictor Project, also aims to predict the probabilities if this might occur in the near future based on the data analyzed.<br>
+> <b> Heart Disease Analysis and Predictor Project, also aims to predict the probabilities if this might occur in the near future based on the data analyzed.<b><br>
 
 ### User Types
 
