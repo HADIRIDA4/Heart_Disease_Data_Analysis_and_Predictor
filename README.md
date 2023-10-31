@@ -13,6 +13,7 @@
 
 <a  name="philosophy" ></a>
 <img  src="readme/title2.svg" id="project-philosophy"/>
+<B>
 
 > A Python-based ETL (Extract, Transform, Load) project aimed at processing data from various web sources, and subsequently storing it in a tabular database (PostgreSQL), with the objective of facilitating comprehensive analysis of Heart Disease
 
@@ -119,24 +120,24 @@
 
 <br><br>
 
-Heart Disease Analytics is built using the following technologies:
+<B>Heart Disease Analytics is built using the following technologies:<B>
 
 ## Frontend
 
-Interactive PowerBI Dashboard:
+<B>Interactive PowerBI Dashboard:
 A central dashboard where viewers can view:
 
 1. Epidemiological Indicators: Graphs, charts and visualizations displaying key Health metrics over time.
-2. Cohort Studies Analysis:Cohort Studies Analysis: Conduct comprehensive analysis of cohort studies to investigate trends, risk factors, and outcomes in a defined group over time, providing valuable insights into the factors influencing specific health or research outcomes.
+2. Cohort Studies Analysis: Conduct comprehensive analysis of cohort studies to investigate trends , risk factors, and outcomes in a defined group over time, providing valuable insights into the factors influencing specific health or research outcomes.
 3. Predictive Analysis: A visualization of the ML model's performance about occurence of disease compared to actual data.
-4. Interactive filters: options to filter data by date, region,type of disease,sex, or specific economic indicatiors for customized views.
+4. Interactive filters:Options to filter data by date, region,type of disease,sex, or specific economic indicatiors for customized views.<B>
 
 <br>
 
 ## Backend
 
 1. Automation.
-2. ETL Pipeline: using python and pandas, raw data is extracted, transformed into a usable format and loaded into postgreSQL database.
+2. ETL Pipeline: using <B>P<B>ython and <B>P<B>andas, raw data is extracted, transformed into a usable format and loaded into postgreSQL database.
 3. Database: Schema Design - Data Integrity - Backup & Recovery.
 4. Machine Learning & Predictive Analysis: Model Training - Evaluation and Prediction.
 
@@ -192,4 +193,4 @@ You should be able to check the app.log file to see the ETL work.
 
 - Run this model and you wil be able to get live prediction for your entered Data
   You should be able to check the ML Process and Output file to see Output
-- As for the dashboard access: Please use this link "[public powerbi link ](https://app.powerbi.com/view?r=eyJrIjoiMTU4OWJiMDUtNzM0NS00ZGFmLWFhZDEtZmYwYWZjM2NmZjVhIiwidCI6IjJhZDk2OTM0LTQzZTUtNDFjMi05NzYxLWYzMzVmZTIxNGNjMyIsImMiOjl9)" to access your data.
+- As for the dashboard access: Please use this link "[Public Powerbi Link ](https://app.powerbi.com/view?r=eyJrIjoiMTU4OWJiMDUtNzM0NS00ZGFmLWFhZDEtZmYwYWZjM2NmZjVhIiwidCI6IjJhZDk2OTM0LTQzZTUtNDFjMi05NzYxLWYzMzVmZTIxNGNjMyIsImMiOjl9)" to access your data.
