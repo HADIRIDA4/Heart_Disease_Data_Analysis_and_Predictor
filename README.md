@@ -195,4 +195,4 @@ You should be able to check the app.log file to see the ETL work.
 
 - Run this model and you wil be able to get live prediction for your entered Data
   You should be able to check the ML Process and Output file to see Output
-- As for the dashboard access: Please use this link "[public powerbi link ](https://app.powerbi.com/view?r=eyJrIjoiYzE3Nzg2MDItNDY4MC00ZDA6LTlkMGYtNTQ5M2YxM2U3ODVlIiwidCI6IjJhZDk2OTM0LTQzZTUtNDFjMi05NzYxLWYzMzVmZTIxNGNjMyIsImMiOjl9)" to access your data.
+- As for the dashboard access: Please use this link "[public powerbi link ](https://app.powerbi.com/view?r=eyJrIjoiMTU4OWJiMDUtNzM0NS00ZGFmLWFhZDEtZmYwYWZjM2NmZjVhIiwidCI6IjJhZDk2OTM0LTQzZTUtNDFjMi05NzYxLWYzMzVmZTIxNGNjMyIsImMiOjl9)" to access your data.
