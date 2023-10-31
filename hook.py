@@ -104,6 +104,7 @@ def execute_hook():
         logging.info("Step 7  : Closing Connection  ")
         close_connection(db_session)
 
+
     except Exception as error:
         suffix = str(error)
         error_prefix = ErrorHandling.HOOK_SQL_ERROR
