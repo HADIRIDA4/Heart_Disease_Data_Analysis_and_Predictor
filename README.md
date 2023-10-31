@@ -91,7 +91,7 @@
 
 ## Navigation Through Report
 
-<img src="readme\Overview gif.gif" id="prototyping" width="1280" height="720" />
+<img src="readme\OverView Gif.gif" id="prototyping" width="1280" height="720" />
 
 ## landing Page
 
@@ -117,7 +117,7 @@
 
 <!-- Tech stacks -->
 
-<a  name="Stack"  ></a>
+<a  name="Stack"></a>
 <img  src="readme\title5.svg" id="Stack"/>
 
 <br><br>
@@ -192,5 +192,7 @@ You should be able to check the app.log file to see the ETL work.
 
 **Run the Machine Learning Model**:
 `ml_model.py`
-You should be able to check the ML Process and Output file to see Output and The Process
-As for the dashboard access: Please use this link "[public powerbi link ](https://app.powerbi.com/view?r=eyJrIjoiYzE3Nzg2MDItNDY4MC00ZDA6LTlkMGYtNTQ5M2YxM2U3ODVlIiwidCI6IjJhZDk2OTM0LTQzZTUtNDFjMi05NzYxLWYzMzVmZTIxNGNjMyIsImMiOjl9)" to access your data.
+
+- Run this model and you wil be able to get live prediction for your entered Data
+  You should be able to check the ML Process and Output file to see Output
+- As for the dashboard access: Please use this link "[public powerbi link ](https://app.powerbi.com/view?r=eyJrIjoiYzE3Nzg2MDItNDY4MC00ZDA6LTlkMGYtNTQ5M2YxM2U3ODVlIiwidCI6IjJhZDk2OTM0LTQzZTUtNDFjMi05NzYxLWYzMzVmZTIxNGNjMyIsImMiOjl9)" to access your data.
