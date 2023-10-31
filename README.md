@@ -89,29 +89,29 @@
 
 # Power BI Report
 
-## Navigation Through Report
-
-<img src="readme\OverView.gif" id="prototyping"  />
-
 ## landing Page
 
 <img src= "readme\Landing_Page.png" id="prototyping"/>
 
 ## Overview Page
 
-<img src= "readme\Overview.png" id="prototyping"/>
+<img src="readme\Overview.png" id="prototyping"/>
 
 ## Epidemiology Page
 
-<img src="readme\epidemiolgy.gif" id="prototyping"/>
+<img src="readme\epidimiology.gif" id="prototyping"/>
 
 ## Etiology Page
 
-<img src= "readme\etiology.png" id="prototyping"/>
+<img src= "readme\etiology_g.gif" id="prototyping"/>
 
 ## Classification and Prediction Page
 
-<img src= "readme\classification and evaluating.png" id="prototyping"/>
+<img src= "readme\classification_and_evaluating.png" id="prototyping"/>
+
+## Navigation Through Report
+
+<img src="readme\OverView.gif" id="prototyping"  />
 
 <br><br>
 
