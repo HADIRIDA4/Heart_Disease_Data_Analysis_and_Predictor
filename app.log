@@ -1,0 +1,17 @@
+2023-10-31 06:31:10,727 - INFO - NumExpr defaulting to 8 threads.
+2023-10-31 06:31:12,214 - INFO -  Executing Prehook :
+2023-10-31 06:31:12,214 - INFO -  Creating Database Connection :
+2023-10-31 06:31:12,277 - INFO -  Step 2 Creating Schema :
+2023-10-31 06:31:12,277 - INFO -  Step 3 Executing ML Classification and Prediction
+2023-10-31 06:31:16,802 - INFO -  Step 4 Creating Staging Tables
+2023-10-31 06:34:37,176 - INFO -  Step 5 Closing Connection
+2023-10-31 06:34:37,176 - INFO -  Executing Hook :
+2023-10-31 06:34:37,176 - INFO -  Step 1:Creating Database Connection :
+2023-10-31 06:34:37,224 - INFO -  Step 2:Creating ETL Checkpoint :
+2023-10-31 06:34:37,224 - INFO -  Step 3:Retrieving Etl Last Update Date
+2023-10-31 06:34:37,479 - INFO - step 4 : Inserting New Data into Staging Tables  
+2023-10-31 06:37:27,084 - INFO - 5tep 5 : Creating / Updating Tables   
+2023-10-31 06:37:27,116 - INFO - Step 6 : Inserting or Updating ETL Check Point  
+2023-10-31 06:37:27,116 - INFO - Step 7  : Closing Connection  
+2023-10-31 06:37:27,116 - INFO -  Prehook Phase Started 
+2023-10-31 06:37:27,231 - INFO -   Truncated Staging Tables 
