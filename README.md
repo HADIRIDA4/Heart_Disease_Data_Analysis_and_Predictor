@@ -91,7 +91,7 @@
 
 ## Navigation Through Report
 
-<img src="readme\OverView Gif.gif" id="prototyping"  />
+<img src="readme\OverView.gif" id="prototyping"  />
 
 ## landing Page
 
