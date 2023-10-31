@@ -70,7 +70,7 @@
 
 ### Logger File
 
-<img  src="readme\logger.png"  id="prototyping"/>
+<img  src=""  id="prototyping"/>
 
 ### Data Tables Schema
 
