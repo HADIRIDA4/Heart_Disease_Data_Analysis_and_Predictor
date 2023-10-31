@@ -103,7 +103,7 @@
 
 ## Epidemiology Page
 
-<img src= "readme\epidemiolgy.gif" id="prototyping"/>
+<img src="readme\epidemiolgy.gif" id="prototyping"/>
 
 ## Etiology Page
 
