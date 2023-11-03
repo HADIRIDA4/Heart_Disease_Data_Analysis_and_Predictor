@@ -23,9 +23,8 @@ def execute_prehook(sql_command_directory_path="./SQL_Commands"):
             DestinationDatabase.SCHEMA_NAME,
         )
         logging.info(" Step 3 Executing ML Classification and Prediction")
-
         execute_ml_classification_prediction(
-            "https://storage.googleapis.com/csv-links/heart_statlog_cleveland_hungary_final.csv",
+            "https://heartdisease246.s3.amazonaws.com/heart_statlog_cleveland_hungary_final+(11).csv",
             "ML Process and Output",
         )
         logging.info(" Step 4 Creating Staging Tables")

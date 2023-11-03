@@ -33,29 +33,41 @@ class InputTypes(Enum):
 
 
 class links(Enum):
-    DISEASE_CATEGORY = "https://storage.googleapis.com/csv-links/disease_category.csv"
-    DISEASE = "https://storage.googleapis.com/csv-links/disease.csv"
+    DISEASE_CATEGORY = (
+        "https://heartdisease246.s3.amazonaws.com/disease_category+(1)+(1).csv"
+    )
+    DISEASE = "https://heartdisease246.s3.amazonaws.com/disease+(2)+(1).csv"
     EPIDEMIOLOGY = (
-        "https://storage.googleapis.com/csv-links-2/epidemiological%20data.csv"
+        "https://heartdisease246.s3.amazonaws.com/epidemiological+data+(2)+(1).csv"
     )
-    FRAMINGHAM_STUDY = "https://storage.googleapis.com/csv-links/Framingham_Study.csv"
-    LOCATION = "https://storage.googleapis.com/csv-links/location.csv"
-    MEASURES = "https://storage.googleapis.com/csv-links/measures.csv"
-    SWITZERLAND_STUDY = "https://storage.googleapis.com/csv-links-2/Switzerland.csv"
+    FRAMINGHAM_STUDY = (
+        "https://heartdisease246.s3.amazonaws.com/Framingham_Study+(2)+(2).csv"
+    )
+    LOCATION = "https://heartdisease246.s3.amazonaws.com/location+(1)+(1).csv"
+    MEASURES = "https://heartdisease246.s3.amazonaws.com/measures+(2)+(1).csv"
+    SWITZERLAND_STUDY = (
+        "https://heartdisease246.s3.amazonaws.com/Switzerland+(1)+(1).csv"
+    )
 
-    CVD_CLEANED = "https://storage.googleapis.com/csv-links-2/cleveland.csv"
+    CVD_CLEANED = "https://heartdisease246.s3.amazonaws.com/cleveland+(2).csv"
 
-    confusion_results = "https://storage.googleapis.com/csv-links/confusion_results.csv"
+    confusion_results = (
+        "https://heartdisease246.s3.amazonaws.com/confusion_results+(3)+(1).csv"
+    )
     importance_features = (
-        "https://storage.googleapis.com/csv-links/important_features.csv"
+        "https://heartdisease246.s3.amazonaws.com/important_features+(1)+(1).csv"
     )
 
-    metrics_reults = "https://storage.googleapis.com/csv-links/metrics_results.csv"
-    models_result = "https://storage.googleapis.com/csv-links/models_result.csv"
+    metrics_reults = (
+        "https://heartdisease246.s3.amazonaws.com/metrics_results+(3)+(1).csv"
+    )
+    models_result = (
+        "https://heartdisease246.s3.amazonaws.com/models_result+(13)+(1).csv"
+    )
 
 
 class prediction_link(Enum):
-    PREDICTION = "https://storage.googleapis.com/csv-links/heart_statlog_cleveland_hungary_final.csv"
+    PREDICTION = "https://heartdisease246.s3.amazonaws.com/heart_statlog_cleveland_hungary_final+(11).csv"
 
 
 class DestinationDatabase(Enum):
