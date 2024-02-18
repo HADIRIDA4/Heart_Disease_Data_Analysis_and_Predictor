@@ -171,7 +171,7 @@ A central dashboard where viewers can view:
 
 ```sh
 
-git clone https://github.com/HADIRIDA4/Heart_Disease_Data_Analysis_and_Predictor
+git clone https://github.com/HadiAlRida/Heart_Disease_Data_Analysis_and_Predictor
 
 ```
 
