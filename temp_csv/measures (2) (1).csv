@@ -1,0 +1,4 @@
+Measure_ID,Measure,Number,Percent,Rate,date_added
+1,Deaths,Number of deaths in the population,Proportion of deaths for a particular cause relative to deaths from all causes,"Deaths per 100,000 population",12/31/2000
+5,Prevalence,Total number of cases in the population,Proportion of total cases of a particular cause relative to cases from all causes,"Total cases per 100,000 population",12/31/2000
+6,Incidence,Number of new cases in the population,Proportion of new cases of a particular cause relative to cases from all causes,"New cases per 100,000 population",12/31/2000

@@ -1,0 +1,739 @@
+location_id,location_name,date_added
+1,Global,12/31/2000
+4,"Southeast Asia, East Asia, and Oceania",12/31/2000
+5,East Asia,12/31/2000
+6,China,12/31/2000
+7,Democratic People's Republic of Korea,12/31/2000
+8,Taiwan Province of China,12/31/2000
+9,Southeast Asia,12/31/2000
+10,Cambodia,12/31/2000
+11,Indonesia,12/31/2000
+12,Lao People's Democratic Republic,12/31/2000
+13,Malaysia,12/31/2000
+14,Maldives,12/31/2000
+15,Myanmar,12/31/2000
+16,Philippines,12/31/2000
+17,Sri Lanka,12/31/2000
+18,Thailand,12/31/2000
+19,Timor-Leste,12/31/2000
+20,Viet Nam,12/31/2000
+21,Oceania,12/31/2000
+22,Fiji,12/31/2000
+23,Kiribati,12/31/2000
+24,Marshall Islands,12/31/2000
+25,Micronesia Federated States of,12/31/2000
+26,Papua New Guinea,12/31/2000
+27,Samoa,12/31/2000
+28,Solomon Islands,12/31/2000
+29,Tonga,12/31/2000
+30,Vanuatu,12/31/2000
+31,"Central Europe, Eastern Europe, and Central Asia",12/31/2000
+32,Central Asia,12/31/2000
+33,Armenia,12/31/2000
+34,Azerbaijan,12/31/2000
+35,Georgia,12/31/2000
+36,Kazakhstan,12/31/2000
+37,Kyrgyzstan,12/31/2000
+38,Mongolia,12/31/2000
+39,Tajikistan,12/31/2000
+40,Turkmenistan,12/31/2000
+41,Uzbekistan,12/31/2000
+42,Central Europe,12/31/2000
+43,Albania,12/31/2000
+44,Bosnia and Herzegovina,12/31/2000
+45,Bulgaria,12/31/2000
+46,Croatia,12/31/2000
+47,Czechia,12/31/2000
+48,Hungary,12/31/2000
+49,North Macedonia,12/31/2000
+50,Montenegro,12/31/2000
+51,Poland,12/31/2000
+52,Romania,12/31/2000
+53,Serbia,12/31/2000
+54,Slovakia,12/31/2000
+55,Slovenia,12/31/2000
+56,Eastern Europe,12/31/2000
+57,Belarus,12/31/2000
+58,Estonia,12/31/2000
+59,Latvia,12/31/2000
+60,Lithuania,12/31/2000
+61,Republic of Moldova,12/31/2000
+62,Russian Federation,12/31/2000
+63,Ukraine,12/31/2000
+64,High-income,12/31/2000
+65,High-income Asia Pacific,12/31/2000
+66,Brunei Darussalam,12/31/2000
+67,Japan,12/31/2000
+68,Republic of Korea,12/31/2000
+69,Singapore,12/31/2000
+70,Australasia,12/31/2000
+71,Australia,12/31/2000
+72,New Zealand,12/31/2000
+73,Western Europe,12/31/2000
+74,Andorra,12/31/2000
+75,Austria,12/31/2000
+76,Belgium,12/31/2000
+77,Cyprus,12/31/2000
+78,Denmark,12/31/2000
+79,Finland,12/31/2000
+80,France,12/31/2000
+81,Germany,12/31/2000
+82,Greece,12/31/2000
+83,Iceland,12/31/2000
+84,Ireland,12/31/2000
+85,Israel,12/31/2000
+86,Italy,12/31/2000
+87,Luxembourg,12/31/2000
+88,Malta,12/31/2000
+89,Netherlands,12/31/2000
+90,Norway,12/31/2000
+91,Portugal,12/31/2000
+92,Spain,12/31/2000
+93,Sweden,12/31/2000
+94,Switzerland,12/31/2000
+95,United Kingdom,12/31/2000
+96,Southern Latin America,12/31/2000
+97,Argentina,12/31/2000
+98,Chile,12/31/2000
+99,Uruguay,12/31/2000
+100,High-income North America,12/31/2000
+101,Canada,12/31/2000
+102,United States of America,12/31/2000
+103,Latin America and Caribbean,12/31/2000
+104,Caribbean,12/31/2000
+105,Antigua and Barbuda,12/31/2000
+106,Bahamas,12/31/2000
+107,Barbados,12/31/2000
+108,Belize,12/31/2000
+109,Cuba,12/31/2000
+110,Dominica,12/31/2000
+111,Dominican Republic,12/31/2000
+112,Grenada,12/31/2000
+113,Guyana,12/31/2000
+114,Haiti,12/31/2000
+115,Jamaica,12/31/2000
+116,Saint Lucia,12/31/2000
+117,Saint Vincent and the Grenadines,12/31/2000
+118,Suriname,12/31/2000
+119,Trinidad and Tobago,12/31/2000
+120,Andean Latin America,12/31/2000
+121,Bolivia Plurinational State of,12/31/2000
+122,Ecuador,12/31/2000
+123,Peru,12/31/2000
+124,Central Latin America,12/31/2000
+125,Colombia,12/31/2000
+126,Costa Rica,12/31/2000
+127,El Salvador,12/31/2000
+128,Guatemala,12/31/2000
+129,Honduras,12/31/2000
+130,Mexico,12/31/2000
+131,Nicaragua,12/31/2000
+132,Panama,12/31/2000
+133,Venezuela ,12/31/2000
+134,Tropical Latin America,12/31/2000
+135,Brazil,12/31/2000
+136,Paraguay,12/31/2000
+137,North Africa and Middle East,12/31/2000
+138,North Africa and Middle East,12/31/2000
+139,Algeria,12/31/2000
+140,Bahrain,12/31/2000
+141,Egypt,12/31/2000
+142,Iran,12/31/2000
+143,Iraq,12/31/2000
+144,Jordan,12/31/2000
+145,Kuwait,12/31/2000
+146,Lebanon,12/31/2000
+147,Libya,12/31/2000
+148,Morocco,12/31/2000
+149,Palestine,12/31/2000
+150,Oman,12/31/2000
+151,Qatar,12/31/2000
+152,Saudi Arabia,12/31/2000
+153,Syrian Arab Republic,12/31/2000
+154,Tunisia,12/31/2000
+155,Turkey,12/31/2000
+156,United Arab Emirates,12/31/2000
+157,Yemen,12/31/2000
+158,South Asia,12/31/2000
+159,South Asia,12/31/2000
+160,Afghanistan,12/31/2000
+161,Bangladesh,12/31/2000
+162,Bhutan,12/31/2000
+163,India,12/31/2000
+164,Nepal,12/31/2000
+165,Pakistan,12/31/2000
+166,Sub-Saharan Africa,12/31/2000
+167,Central Sub-Saharan Africa,12/31/2000
+168,Angola,12/31/2000
+169,Central African Republic,12/31/2000
+170,Congo,12/31/2000
+171,Democratic Republic of the Congo,12/31/2000
+172,Equatorial Guinea,12/31/2000
+173,Gabon,12/31/2000
+174,Eastern Sub-Saharan Africa,12/31/2000
+175,Burundi,12/31/2000
+176,Comoros,12/31/2000
+177,Djibouti,12/31/2000
+178,Eritrea,12/31/2000
+179,Ethiopia,12/31/2000
+180,Kenya,12/31/2000
+181,Madagascar,12/31/2000
+182,Malawi,12/31/2000
+183,Mauritius,12/31/2000
+184,Mozambique,12/31/2000
+185,Rwanda,12/31/2000
+186,Seychelles,12/31/2000
+187,Somalia,12/31/2000
+189,United Republic of Tanzania,12/31/2000
+190,Uganda,12/31/2000
+191,Zambia,12/31/2000
+192,Southern Sub-Saharan Africa,12/31/2000
+193,Botswana,12/31/2000
+194,Lesotho,12/31/2000
+195,Namibia,12/31/2000
+196,South Africa,12/31/2000
+197,Eswatini,12/31/2000
+198,Zimbabwe,12/31/2000
+199,Western Sub-Saharan Africa,12/31/2000
+200,Benin,12/31/2000
+201,Burkina Faso,12/31/2000
+202,Cameroon,12/31/2000
+203,Cabo Verde,12/31/2000
+204,Chad,12/31/2000
+205,Cte d'Ivoire,12/31/2000
+206,Gambia,12/31/2000
+207,Ghana,12/31/2000
+208,Guinea,12/31/2000
+209,Guinea-Bissau,12/31/2000
+210,Liberia,12/31/2000
+211,Mali,12/31/2000
+212,Mauritania,12/31/2000
+213,Niger,12/31/2000
+214,Nigeria,12/31/2000
+215,Sao Tome and Principe,12/31/2000
+216,Senegal,12/31/2000
+217,Sierra Leone,12/31/2000
+218,Togo,12/31/2000
+239,East Asia & Pacific - WB,12/31/2000
+240,Europe & Central Asia - WB,12/31/2000
+241,Latin America & Caribbean - WB,12/31/2000
+242,Sub-Saharan Africa - WB,12/31/2000
+243,Middle East & North Africa - WB,12/31/2000
+244,South Asia - WB,12/31/2000
+298,American Samoa,12/31/2000
+305,Bermuda,12/31/2000
+320,Cook Islands,12/31/2000
+349,Greenland,12/31/2000
+351,Guam,12/31/2000
+367,Monaco,12/31/2000
+369,Nauru,12/31/2000
+374,Niue,12/31/2000
+376,Northern Mariana Islands,12/31/2000
+380,Palau,12/31/2000
+385,Puerto Rico,12/31/2000
+393,Saint Kitts and Nevis,12/31/2000
+396,San Marino,12/31/2000
+413,Tokelau,12/31/2000
+416,Tuvalu,12/31/2000
+422,United States Virgin Islands,12/31/2000
+433,Northern Ireland,12/31/2000
+434,Scotland,12/31/2000
+435,South Sudan,12/31/2000
+478,World Bank Regions,12/31/2000
+479,WHO region,12/31/2000
+482,Eastern Cape,12/31/2000
+483,Free State,12/31/2000
+484,Gauteng,12/31/2000
+485,KwaZulu-Natal,12/31/2000
+486,Limpopo,12/31/2000
+487,Mpumalanga,12/31/2000
+488,North-West,12/31/2000
+489,Northern Cape,12/31/2000
+490,Western Cape,12/31/2000
+522,Sudan,12/31/2000
+523,Alabama,12/31/2000
+524,Alaska,12/31/2000
+525,Arizona,12/31/2000
+526,Arkansas,12/31/2000
+527,California,12/31/2000
+528,Colorado,12/31/2000
+529,Connecticut,12/31/2000
+530,Delaware,12/31/2000
+531,District of Columbia,12/31/2000
+532,Florida,12/31/2000
+533,Georgia,12/31/2000
+534,Hawaii,12/31/2000
+535,Idaho,12/31/2000
+536,Illinois,12/31/2000
+537,Indiana,12/31/2000
+538,Iowa,12/31/2000
+539,Kansas,12/31/2000
+540,Kentucky,12/31/2000
+541,Louisiana,12/31/2000
+542,Maine,12/31/2000
+543,Maryland,12/31/2000
+544,Massachusetts,12/31/2000
+545,Michigan,12/31/2000
+546,Minnesota,12/31/2000
+547,Mississippi,12/31/2000
+548,Missouri,12/31/2000
+549,Montana,12/31/2000
+550,Nebraska,12/31/2000
+551,Nevada,12/31/2000
+552,New Hampshire,12/31/2000
+553,New Jersey,12/31/2000
+554,New Mexico,12/31/2000
+555,New York,12/31/2000
+556,North Carolina,12/31/2000
+557,North Dakota,12/31/2000
+558,Ohio,12/31/2000
+559,Oklahoma,12/31/2000
+560,Oregon,12/31/2000
+561,Pennsylvania,12/31/2000
+562,Rhode Island,12/31/2000
+563,South Carolina,12/31/2000
+564,South Dakota,12/31/2000
+565,Tennessee,12/31/2000
+566,Texas,12/31/2000
+567,Utah,12/31/2000
+568,Vermont,12/31/2000
+569,Virginia,12/31/2000
+570,Washington,12/31/2000
+571,West Virginia,12/31/2000
+572,Wisconsin,12/31/2000
+573,Wyoming,12/31/2000
+4618,North East England,12/31/2000
+4619,North West England,12/31/2000
+4620,Yorkshire and the Humber,12/31/2000
+4621,East Midlands,12/31/2000
+4622,West Midlands,12/31/2000
+4623,East of England,12/31/2000
+4624,Greater London,12/31/2000
+4625,South East England,12/31/2000
+4626,South West England,12/31/2000
+4636,Wales,12/31/2000
+4643,Aguascalientes,12/31/2000
+4644,Baja California,12/31/2000
+4645,Baja California Sur,12/31/2000
+4646,Campeche,12/31/2000
+4647,Coahuila,12/31/2000
+4648,Colima,12/31/2000
+4649,Chiapas,12/31/2000
+4650,Chihuahua,12/31/2000
+4651,Mexico City,12/31/2000
+4652,Durango,12/31/2000
+4653,Guanajuato,12/31/2000
+4654,Guerrero,12/31/2000
+4655,Hidalgo,12/31/2000
+4656,Jalisco,12/31/2000
+4657,Mxico,12/31/2000
+4658,Michoacn de Ocampo,12/31/2000
+4659,Morelos,12/31/2000
+4660,Nayarit,12/31/2000
+4661,Nuevo Len,12/31/2000
+4662,Oaxaca,12/31/2000
+4663,Puebla,12/31/2000
+4664,Quertaro,12/31/2000
+4665,Quintana Roo,12/31/2000
+4666,San Luis Potos,12/31/2000
+4667,Sinaloa,12/31/2000
+4668,Sonora,12/31/2000
+4669,Tabasco,12/31/2000
+4670,Tamaulipas,12/31/2000
+4671,Tlaxcala,12/31/2000
+4672,Veracruz de Ignacio de la Llave,12/31/2000
+4673,Yucatn,12/31/2000
+4674,Zacatecas,12/31/2000
+4709,Aceh,12/31/2000
+4710,North Sumatra,12/31/2000
+4711,West Sumatra,12/31/2000
+4712,Riau,12/31/2000
+4713,Jambi,12/31/2000
+4714,South Sumatra,12/31/2000
+4715,Bengkulu,12/31/2000
+4716,Lampung,12/31/2000
+4717,Bangka-Belitung Islands,12/31/2000
+4718,Riau Islands,12/31/2000
+4719,North Kalimantan,12/31/2000
+4720,Jakarta,12/31/2000
+4721,West Java,12/31/2000
+4722,Central Java,12/31/2000
+4723,Yogyakarta,12/31/2000
+4724,East Java,12/31/2000
+4725,Banten,12/31/2000
+4726,Bali,12/31/2000
+4727,West Nusa Tenggara,12/31/2000
+4728,East Nusa Tenggara,12/31/2000
+4729,West Kalimantan,12/31/2000
+4730,Central Kalimantan,12/31/2000
+4731,South Kalimantan,12/31/2000
+4732,East Kalimantan,12/31/2000
+4733,North Sulawesi,12/31/2000
+4734,Central Sulawesi,12/31/2000
+4735,South Sulawesi,12/31/2000
+4736,Southeast Sulawesi,12/31/2000
+4737,Gorontalo,12/31/2000
+4738,West Sulawesi,12/31/2000
+4739,Maluku,12/31/2000
+4740,North Maluku,12/31/2000
+4741,West Papua,12/31/2000
+4742,Papua,12/31/2000
+4743,European Union,12/31/2000
+4749,England,12/31/2000
+4750,Acre,12/31/2000
+4751,Alagoas,12/31/2000
+4752,Amazonas,12/31/2000
+4753,Amap,12/31/2000
+4754,Bahia,12/31/2000
+4755,Cear,12/31/2000
+4756,Distrito Federal,12/31/2000
+4757,Esprito Santo,12/31/2000
+4758,Gois,12/31/2000
+4759,Maranho,12/31/2000
+4760,Minas Gerais,12/31/2000
+4761,Mato Grosso do Sul,12/31/2000
+4762,Mato Grosso,12/31/2000
+4763,Par,12/31/2000
+4764,Paraba,12/31/2000
+4765,Paran,12/31/2000
+4766,Pernambuco,12/31/2000
+4767,Piaui,12/31/2000
+4768,Rio de Janeiro,12/31/2000
+4769,Rio Grande do Norte,12/31/2000
+4770,Rondnia,12/31/2000
+4771,Roraima,12/31/2000
+4772,Rio Grande do Sul,12/31/2000
+4773,Santa Catarina,12/31/2000
+4774,Sergipe,12/31/2000
+4775,So Paulo,12/31/2000
+4776,Tocantins,12/31/2000
+4910,Oslo,12/31/2000
+4920,Rogaland,12/31/2000
+4923,Mre og Romsdal,12/31/2000
+4926,Nordland,12/31/2000
+4940,Sweden except Stockholm,12/31/2000
+4944,Stockholm,12/31/2000
+35425,Aomori,12/31/2000
+35426,Iwate,12/31/2000
+35427,Miyagi,12/31/2000
+35428,Akita,12/31/2000
+35429,Yamagata,12/31/2000
+35430,Fukushima,12/31/2000
+35431,Ibaraki,12/31/2000
+35432,Tochigi,12/31/2000
+35433,Gunma,12/31/2000
+35434,Saitama,12/31/2000
+35435,Chiba,12/31/2000
+35436,Tokyo,12/31/2000
+35437,Kanagawa,12/31/2000
+35438,Niigata,12/31/2000
+35439,Toyama,12/31/2000
+35440,Ishikawa,12/31/2000
+35441,Fukui,12/31/2000
+35442,Yamanashi,12/31/2000
+35443,Nagano,12/31/2000
+35444,Gifu,12/31/2000
+35445,Shizuoka,12/31/2000
+35446,Aichi,12/31/2000
+35447,Mie,12/31/2000
+35448,Shiga,12/31/2000
+35452,Nara,12/31/2000
+35453,Wakayama,12/31/2000
+35454,Tottori,12/31/2000
+35455,Shimane,12/31/2000
+35456,Okayama,12/31/2000
+35457,Hiroshima,12/31/2000
+35458,Yamaguchi,12/31/2000
+35459,Tokushima,12/31/2000
+35460,Kagawa,12/31/2000
+35461,Ehime,12/31/2000
+35463,Fukuoka,12/31/2000
+35464,Saga,12/31/2000
+35465,Nagasaki,12/31/2000
+35466,Kumamoto,12/31/2000
+35468,Miyazaki,12/31/2000
+35469,Kagoshima,12/31/2000
+35470,Okinawa,12/31/2000
+35617,Baringo,12/31/2000
+35618,Bomet,12/31/2000
+35619,Bungoma,12/31/2000
+35620,Busia,12/31/2000
+35621,Elgeyo-Marakwet,12/31/2000
+35622,Embu,12/31/2000
+35623,Garissa,12/31/2000
+35624,HomaBay,12/31/2000
+35625,Isiolo,12/31/2000
+35626,Kajiado,12/31/2000
+35627,Kakamega,12/31/2000
+35628,Kericho,12/31/2000
+35629,Kiambu,12/31/2000
+35630,Kilifi,12/31/2000
+35631,Kirinyaga,12/31/2000
+35632,Kisii,12/31/2000
+35633,Kisumu,12/31/2000
+35634,Kitui,12/31/2000
+35635,Kwale,12/31/2000
+35636,Laikipia,12/31/2000
+35637,Lamu,12/31/2000
+35638,Machakos,12/31/2000
+35639,Makueni,12/31/2000
+35640,Mandera,12/31/2000
+35641,Marsabit,12/31/2000
+35642,Meru,12/31/2000
+35643,Migori,12/31/2000
+35644,Mombasa,12/31/2000
+35645,Murang'a,12/31/2000
+35646,Nairobi,12/31/2000
+35647,Nakuru,12/31/2000
+35648,Nandi,12/31/2000
+35649,Narok,12/31/2000
+35650,Nyamira,12/31/2000
+35651,Nyandarua,12/31/2000
+35652,Nyeri,12/31/2000
+35653,Samburu,12/31/2000
+35654,Siaya,12/31/2000
+35655,TaitaTaveta,12/31/2000
+35656,TanaRiver,12/31/2000
+35657,TharakaNithi,12/31/2000
+35658,TransNzoia,12/31/2000
+35659,Turkana,12/31/2000
+35660,UasinGishu,12/31/2000
+35661,Vihiga,12/31/2000
+35662,Wajir,12/31/2000
+35663,WestPokot,12/31/2000
+44534,Commonwealth,12/31/2000
+44535,Commonwealth High Income,12/31/2000
+44536,Commonwealth Middle Income,12/31/2000
+44537,Commonwealth Low Income,12/31/2000
+44559,Africa,12/31/2000
+44560,America,12/31/2000
+44561,Asia,12/31/2000
+44562,Europe,12/31/2000
+44563,African Region,12/31/2000
+44564,Region of the Americas,12/31/2000
+44565,South-East Asia Region,12/31/2000
+44566,European Region,12/31/2000
+44567,Eastern Mediterranean Region,12/31/2000
+44568,Western Pacific Region,12/31/2000
+44575,World Bank High Income,12/31/2000
+44576,World Bank Upper Middle Income,12/31/2000
+44577,World Bank Lower Middle Income,12/31/2000
+44578,World Bank Low Income,12/31/2000
+44584,OECD Countries,12/31/2000
+44586,G20,12/31/2000
+44587,African Union,12/31/2000
+44590,Four World Regions,12/31/2000
+44591,World Bank Income Levels,12/31/2000
+44634,High-middle SDI,12/31/2000
+44635,High SDI,12/31/2000
+44636,Low-middle SDI,12/31/2000
+44637,Low SDI,12/31/2000
+44638,North America,12/31/2000
+44639,Middle SDI,12/31/2000
+44642,Nordic Region,12/31/2000
+44643,Darlington,12/31/2000
+44644,Northumberland,12/31/2000
+44645,Stockton-on-Tees,12/31/2000
+44646,Newcastle upon Tyne,12/31/2000
+44647,North Tyneside,12/31/2000
+44648,Redcar and Cleveland,12/31/2000
+44649,County Durham,12/31/2000
+44650,Gateshead,12/31/2000
+44651,Middlesbrough,12/31/2000
+44652,South Tyneside,12/31/2000
+44653,Sunderland,12/31/2000
+44654,Hartlepool,12/31/2000
+44655,Cheshire East,12/31/2000
+44656,Stockport,12/31/2000
+44657,Trafford,12/31/2000
+44658,Cheshire West and Chester,12/31/2000
+44659,Sefton,12/31/2000
+44660,Lancashire,12/31/2000
+44661,Cumbria,12/31/2000
+44662,Bolton,12/31/2000
+44663,Wirral,12/31/2000
+44664,Bury,12/31/2000
+44665,St Helens,12/31/2000
+44666,Warrington,12/31/2000
+44667,Oldham,12/31/2000
+44668,Rochdale,12/31/2000
+44669,Wigan,12/31/2000
+44670,Halton,12/31/2000
+44671,Liverpool,12/31/2000
+44672,Tameside,12/31/2000
+44673,Salford,12/31/2000
+44674,Blackburn with Darwen,12/31/2000
+44675,Knowsley,12/31/2000
+44676,Blackpool,12/31/2000
+44677,Manchester,12/31/2000
+44678,North Yorkshire,12/31/2000
+44679,East Riding of Yorkshire,12/31/2000
+44680,York,12/31/2000
+44681,North East Lincolnshire,12/31/2000
+44682,Calderdale,12/31/2000
+44683,North Lincolnshire,12/31/2000
+44684,Bradford,12/31/2000
+44685,Kirklees,12/31/2000
+44686,Leeds,12/31/2000
+44687,Sheffield,12/31/2000
+44688,Wakefield,12/31/2000
+44689,Rotherham,12/31/2000
+44690,Doncaster,12/31/2000
+44691,"Kingston upon Hull, City of",12/31/2000
+44692,Barnsley,12/31/2000
+44693,Northamptonshire,12/31/2000
+44694,Leicestershire,12/31/2000
+44695,Lincolnshire,12/31/2000
+44696,Rutland,12/31/2000
+44697,Derby,12/31/2000
+44698,Derbyshire,12/31/2000
+44699,Nottinghamshire,12/31/2000
+44700,Nottingham,12/31/2000
+44701,Leicester,12/31/2000
+44702,Warwickshire,12/31/2000
+44703,"Herefordshire, County of",12/31/2000
+44704,Solihull,12/31/2000
+44705,Shropshire,12/31/2000
+44706,Worcestershire,12/31/2000
+44707,Staffordshire,12/31/2000
+44708,Dudley,12/31/2000
+44709,Coventry,12/31/2000
+44710,Telford and Wrekin,12/31/2000
+44711,Stoke-on-Trent,12/31/2000
+44712,Walsall,12/31/2000
+44713,Wolverhampton,12/31/2000
+44714,Birmingham,12/31/2000
+44715,Sandwell,12/31/2000
+44716,Bedford,12/31/2000
+44717,Central Bedfordshire,12/31/2000
+44718,Suffolk,12/31/2000
+44719,Hertfordshire,12/31/2000
+44720,Essex,12/31/2000
+44721,Cambridgeshire,12/31/2000
+44722,Thurrock,12/31/2000
+44723,Norfolk,12/31/2000
+44724,Southend-on-Sea,12/31/2000
+44725,Peterborough,12/31/2000
+44726,Luton,12/31/2000
+44727,Richmond upon Thames,12/31/2000
+44728,Kensington and Chelsea,12/31/2000
+44729,Barnet,12/31/2000
+44730,Westminster,12/31/2000
+44731,Bromley,12/31/2000
+44732,Bexley,12/31/2000
+44733,Redbridge,12/31/2000
+44734,Merton,12/31/2000
+44735,Brent,12/31/2000
+44736,Hillingdon,12/31/2000
+44737,Havering,12/31/2000
+44738,Kingston upon Thames,12/31/2000
+44739,Sutton,12/31/2000
+44740,Harrow,12/31/2000
+44741,Enfield,12/31/2000
+44742,Croydon,12/31/2000
+44743,Hammersmith and Fulham,12/31/2000
+44744,Ealing,12/31/2000
+44745,Greenwich,12/31/2000
+44746,Wandsworth,12/31/2000
+44747,Waltham Forest,12/31/2000
+44748,Camden,12/31/2000
+44749,Lambeth,12/31/2000
+44750,Lewisham,12/31/2000
+44751,Hounslow,12/31/2000
+44752,Southwark,12/31/2000
+44753,Newham,12/31/2000
+44754,Barking and Dagenham,12/31/2000
+44755,Haringey,12/31/2000
+44756,Hackney,12/31/2000
+44757,Islington,12/31/2000
+44758,Tower Hamlets,12/31/2000
+44759,Wokingham,12/31/2000
+44760,Buckinghamshire,12/31/2000
+44761,Surrey,12/31/2000
+44762,Windsor and Maidenhead,12/31/2000
+44763,West Berkshire,12/31/2000
+44764,Hampshire,12/31/2000
+44765,Bracknell Forest,12/31/2000
+44766,West Sussex,12/31/2000
+44767,Oxfordshire,12/31/2000
+44768,Reading,12/31/2000
+44769,Kent,12/31/2000
+44770,Brighton and Hove,12/31/2000
+44771,Medway,12/31/2000
+44772,East Sussex,12/31/2000
+44773,Portsmouth,12/31/2000
+44774,Isle of Wight,12/31/2000
+44775,Milton Keynes,12/31/2000
+44776,Southampton,12/31/2000
+44777,Slough,12/31/2000
+44778,South Gloucestershire,12/31/2000
+44779,Dorset,12/31/2000
+44780,Wiltshire,12/31/2000
+44781,North Somerset,12/31/2000
+44782,Devon,12/31/2000
+44783,Poole,12/31/2000
+44784,Bath and North East Somerset,12/31/2000
+44785,Gloucestershire,12/31/2000
+44786,Somerset,12/31/2000
+44787,Swindon,12/31/2000
+44788,Torbay,12/31/2000
+44789,"Bristol, City of",12/31/2000
+44790,Bournemouth,12/31/2000
+44791,Cornwall,12/31/2000
+44792,Plymouth,12/31/2000
+44852,Tigray,12/31/2000
+44853,Afar,12/31/2000
+44854,Amhara,12/31/2000
+44855,Oromia,12/31/2000
+44856,Somali,12/31/2000
+44857,Benishangul-Gumuz,12/31/2000
+44858,"Southern Nations, Nationalities, and Peoples",12/31/2000
+44859,Harari,12/31/2000
+44860,Gambella,12/31/2000
+44861,Addis Ababa,12/31/2000
+44862,Dire Dawa,12/31/2000
+44864,Alborz,12/31/2000
+44865,Ardebil,12/31/2000
+44866,East Azarbayejan,12/31/2000
+44867,West Azarbayejan,12/31/2000
+44868,Bushehr,12/31/2000
+44869,Chahar Mahaal and Bakhtiari,12/31/2000
+44870,Fars,12/31/2000
+44871,Gilan,12/31/2000
+44872,Golestan,12/31/2000
+44873,Hamadan,12/31/2000
+44874,Hormozgan,12/31/2000
+44875,Ilam,12/31/2000
+44876,Isfahan,12/31/2000
+44877,Kerman,12/31/2000
+44878,Kermanshah,12/31/2000
+44879,North Khorasan,12/31/2000
+44880,Khorasan-e-Razavi,12/31/2000
+44881,South Khorasan,12/31/2000
+44882,Khuzestan,12/31/2000
+44883,Kohgiluyeh and Boyer-Ahmad,12/31/2000
+44884,Kurdistan,12/31/2000
+44885,Lorestan,12/31/2000
+44886,Markazi,12/31/2000
+44887,Mazandaran,12/31/2000
+44888,Qazvin,12/31/2000
+44889,Qom,12/31/2000
+44890,Semnan,12/31/2000
+44891,Sistan and Baluchistan,12/31/2000
+44892,Tehran,12/31/2000
+44893,Yazd,12/31/2000
+44894,Zanjan,12/31/2000
+53432,Trndelag,12/31/2000
+53615,Azad Jammu & Kashmir,12/31/2000
+53616,Balochistan,12/31/2000
+53617,Gilgit-Baltistan,12/31/2000
+53618,Islamabad Capital Territory,12/31/2000
+53619,Khyber Pakhtunkhwa,12/31/2000
+53620,Punjab,12/31/2000
+53621,Sindh,12/31/2000
+60132,Vestland,12/31/2000
+60133,Agder,12/31/2000
+60134,Vestfold og Telemark,12/31/2000
+60135,Innlandet,12/31/2000
+60136,Viken,12/31/2000
+60137,Troms og Finnmark,12/31/2000

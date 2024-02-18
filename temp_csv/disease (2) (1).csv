@@ -1,0 +1,365 @@
+Cause ID,Cause Name,Parent ID,date_added
+294,All causes,294,12/31/2000
+295,"Communicable, maternal, neonatal, and nutritional diseases",294,12/31/2000
+955,HIV/AIDS and sexually transmitted infections,295,12/31/2000
+298,HIV/AIDS,955,12/31/2000
+948,HIV/AIDS - Drug-susceptible Tuberculosis,298,12/31/2000
+949,HIV/AIDS - Multidrug-resistant Tuberculosis without extensive drug resistance,298,12/31/2000
+950,HIV/AIDS - Extensively drug-resistant Tuberculosis,298,12/31/2000
+300,HIV/AIDS resulting in other diseases,298,12/31/2000
+393,Sexually transmitted infections excluding HIV,955,12/31/2000
+394,Syphilis,393,12/31/2000
+395,Chlamydial infection,393,12/31/2000
+396,Gonococcal infection,393,12/31/2000
+397,Trichomoniasis,393,12/31/2000
+398,Genital herpes,393,12/31/2000
+399,Other sexually transmitted infections,393,12/31/2000
+956,Respiratory infections and tuberculosis,295,12/31/2000
+297,Tuberculosis,956,12/31/2000
+954,Latent tuberculosis infection,297,12/31/2000
+934,Drug-susceptible tuberculosis,297,12/31/2000
+946,Multidrug-resistant tuberculosis without extensive drug resistance,297,12/31/2000
+947,Extensively drug-resistant tuberculosis,297,12/31/2000
+322,Lower respiratory infections,956,12/31/2000
+328,Upper respiratory infections,956,12/31/2000
+329,Otitis media,956,12/31/2000
+957,Enteric infections,295,12/31/2000
+302,Diarrheal diseases,957,12/31/2000
+958,Typhoid and paratyphoid,957,12/31/2000
+319,Typhoid fever,958,12/31/2000
+320,Paratyphoid fever,958,12/31/2000
+959,Invasive Non-typhoidal Salmonella (iNTS),957,12/31/2000
+321,Other intestinal infectious diseases,957,12/31/2000
+344,Neglected tropical diseases and malaria,295,12/31/2000
+345,Malaria,344,12/31/2000
+346,Chagas disease,344,12/31/2000
+347,Leishmaniasis,344,12/31/2000
+348,Visceral leishmaniasis,347,12/31/2000
+349,Cutaneous and mucocutaneous leishmaniasis,347,12/31/2000
+350,African trypanosomiasis,344,12/31/2000
+351,Schistosomiasis,344,12/31/2000
+352,Cysticercosis,344,12/31/2000
+353,Cystic echinococcosis,344,12/31/2000
+354,Lymphatic filariasis,344,12/31/2000
+355,Onchocerciasis,344,12/31/2000
+356,Trachoma,344,12/31/2000
+357,Dengue,344,12/31/2000
+358,Yellow fever,344,12/31/2000
+359,Rabies,344,12/31/2000
+360,Intestinal nematode infections,344,12/31/2000
+361,Ascariasis,360,12/31/2000
+362,Trichuriasis,360,12/31/2000
+363,Hookworm disease,360,12/31/2000
+364,Food-borne trematodiases,344,12/31/2000
+405,Leprosy,344,12/31/2000
+843,Ebola,344,12/31/2000
+935,Zika virus,344,12/31/2000
+936,Guinea worm disease,344,12/31/2000
+365,Other neglected tropical diseases,344,12/31/2000
+961,Other infectious diseases,295,12/31/2000
+332,Meningitis,961,12/31/2000
+337,Encephalitis,961,12/31/2000
+338,Diphtheria,961,12/31/2000
+339,Whooping cough,961,12/31/2000
+340,Tetanus,961,12/31/2000
+341,Measles,961,12/31/2000
+342,Varicella and herpes zoster,961,12/31/2000
+400,Acute hepatitis,961,12/31/2000
+401,Acute hepatitis A,400,12/31/2000
+402,Acute hepatitis B,400,12/31/2000
+403,Acute hepatitis C,400,12/31/2000
+404,Acute hepatitis E,400,12/31/2000
+408,Other unspecified infectious diseases,961,12/31/2000
+962,Maternal and neonatal disorders,295,12/31/2000
+366,Maternal disorders,962,12/31/2000
+367,Maternal hemorrhage,366,12/31/2000
+368,Maternal sepsis and other maternal infections,366,12/31/2000
+369,Maternal hypertensive disorders,366,12/31/2000
+370,Maternal obstructed labor and uterine rupture,366,12/31/2000
+995,Maternal abortion and miscarriage,366,12/31/2000
+374,Ectopic pregnancy,366,12/31/2000
+375,Indirect maternal deaths,366,12/31/2000
+376,Late maternal deaths,366,12/31/2000
+741,Maternal deaths aggravated by HIV/AIDS,366,12/31/2000
+379,Other maternal disorders,366,12/31/2000
+380,Neonatal disorders,962,12/31/2000
+381,Neonatal preterm birth,380,12/31/2000
+382,Neonatal encephalopathy due to birth asphyxia and trauma,380,12/31/2000
+383,Neonatal sepsis and other neonatal infections,380,12/31/2000
+384,Hemolytic disease and other neonatal jaundice,380,12/31/2000
+385,Other neonatal disorders,380,12/31/2000
+386,Nutritional deficiencies,295,12/31/2000
+387,Protein-energy malnutrition,386,12/31/2000
+388,Iodine deficiency,386,12/31/2000
+389,Vitamin A deficiency,386,12/31/2000
+390,Dietary iron deficiency,386,12/31/2000
+391,Other nutritional deficiencies,386,12/31/2000
+409,Non-communicable diseases,294,12/31/2000
+410,Neoplasms,409,12/31/2000
+444,Lip and oral cavity cancer,410,12/31/2000
+447,Nasopharynx cancer,410,12/31/2000
+450,Other pharynx cancer,410,12/31/2000
+411,Esophageal cancer,410,12/31/2000
+414,Stomach cancer,410,12/31/2000
+441,Colon and rectum cancer,410,12/31/2000
+417,Liver cancer,410,12/31/2000
+418,Liver cancer due to hepatitis B,417,12/31/2000
+419,Liver cancer due to hepatitis C,417,12/31/2000
+420,Liver cancer due to alcohol use,417,12/31/2000
+996,Liver cancer due to NASH,417,12/31/2000
+1021,Liver cancer due to other causes,417,12/31/2000
+453,Gallbladder and biliary tract cancer,410,12/31/2000
+456,Pancreatic cancer,410,12/31/2000
+423,Larynx cancer,410,12/31/2000
+426,"Tracheal, bronchus, and lung cancer",410,12/31/2000
+459,Malignant skin melanoma,410,12/31/2000
+462,Non-melanoma skin cancer,410,12/31/2000
+849,Non-melanoma skin cancer (squamous-cell carcinoma),462,12/31/2000
+850,Non-melanoma skin cancer (basal-cell carcinoma),462,12/31/2000
+429,Breast cancer,410,12/31/2000
+432,Cervical cancer,410,12/31/2000
+435,Uterine cancer,410,12/31/2000
+465,Ovarian cancer,410,12/31/2000
+438,Prostate cancer,410,12/31/2000
+468,Testicular cancer,410,12/31/2000
+471,Kidney cancer,410,12/31/2000
+474,Bladder cancer,410,12/31/2000
+477,Brain and central nervous system cancer,410,12/31/2000
+480,Thyroid cancer,410,12/31/2000
+483,Mesothelioma,410,12/31/2000
+484,Hodgkin lymphoma,410,12/31/2000
+485,Non-Hodgkin lymphoma,410,12/31/2000
+486,Multiple myeloma,410,12/31/2000
+487,Leukemia,410,12/31/2000
+845,Acute lymphoid leukemia,487,12/31/2000
+846,Chronic lymphoid leukemia,487,12/31/2000
+847,Acute myeloid leukemia,487,12/31/2000
+848,Chronic myeloid leukemia,487,12/31/2000
+943,Other leukemia,487,12/31/2000
+1022,Other malignant neoplasms,410,12/31/2000
+490,Other neoplasms,410,12/31/2000
+964,"Myelodysplastic, myeloproliferative, and other hematopoietic neoplasms",490,12/31/2000
+965,Benign and in situ intestinal neoplasms,490,12/31/2000
+966,Benign and in situ cervical and uterine neoplasms,490,12/31/2000
+967,Other benign and in situ neoplasms,490,12/31/2000
+491,Cardiovascular diseases,409,12/31/2000
+492,Rheumatic heart disease,491,12/31/2000
+493,Ischemic heart disease,491,12/31/2000
+494,Stroke,491,12/31/2000
+495,Ischemic stroke,494,12/31/2000
+496,Intracerebral hemorrhage,494,12/31/2000
+497,Subarachnoid hemorrhage,494,12/31/2000
+498,Hypertensive heart disease,491,12/31/2000
+504,Non-rheumatic valvular heart disease,491,12/31/2000
+968,Non-rheumatic calcific aortic valve disease,504,12/31/2000
+969,Non-rheumatic degenerative mitral valve disease,504,12/31/2000
+970,Other non-rheumatic valve diseases,504,12/31/2000
+499,Cardiomyopathy and myocarditis,491,12/31/2000
+942,Myocarditis,499,12/31/2000
+938,Alcoholic cardiomyopathy,499,12/31/2000
+944,Other cardiomyopathy,499,12/31/2000
+500,Atrial fibrillation and flutter,491,12/31/2000
+501,Aortic aneurysm,491,12/31/2000
+502,Peripheral artery disease,491,12/31/2000
+503,Endocarditis,491,12/31/2000
+1023,Other cardiovascular and circulatory diseases,491,12/31/2000
+508,Chronic respiratory diseases,409,12/31/2000
+509,Chronic obstructive pulmonary disease,508,12/31/2000
+510,Pneumoconiosis,508,12/31/2000
+511,Silicosis,510,12/31/2000
+512,Asbestosis,510,12/31/2000
+513,Coal workers pneumoconiosis,510,12/31/2000
+514,Other pneumoconiosis,510,12/31/2000
+515,Asthma,508,12/31/2000
+516,Interstitial lung disease and pulmonary sarcoidosis,508,12/31/2000
+520,Other chronic respiratory diseases,508,12/31/2000
+526,Digestive diseases,409,12/31/2000
+521,Cirrhosis and other chronic liver diseases,526,12/31/2000
+522,Cirrhosis and other chronic liver diseases due to hepatitis B,521,12/31/2000
+523,Cirrhosis and other chronic liver diseases due to hepatitis C,521,12/31/2000
+524,Cirrhosis and other chronic liver diseases due to alcohol use,521,12/31/2000
+971,Cirrhosis and other chronic liver diseases due to NAFLD,521,12/31/2000
+525,Cirrhosis and other chronic liver diseases due to other causes,521,12/31/2000
+992,Upper digestive system diseases,526,12/31/2000
+527,Peptic ulcer disease,992,12/31/2000
+528,Gastritis and duodenitis,992,12/31/2000
+536,Gastroesophageal reflux disease,992,12/31/2000
+529,Appendicitis,526,12/31/2000
+530,Paralytic ileus and intestinal obstruction,526,12/31/2000
+531,"Inguinal, femoral, and abdominal hernia",526,12/31/2000
+532,Inflammatory bowel disease,526,12/31/2000
+533,Vascular intestinal disorders,526,12/31/2000
+534,Gallbladder and biliary diseases,526,12/31/2000
+535,Pancreatitis,526,12/31/2000
+541,Other digestive diseases,526,12/31/2000
+542,Neurological disorders,409,12/31/2000
+543,Alzheimer's disease and other dementias,542,12/31/2000
+544,Parkinson's disease,542,12/31/2000
+545,Idiopathic epilepsy,542,12/31/2000
+546,Multiple sclerosis,542,12/31/2000
+554,Motor neuron disease,542,12/31/2000
+972,Headache disorders,542,12/31/2000
+547,Migraine,972,12/31/2000
+548,Tension-type headache,972,12/31/2000
+557,Other neurological disorders,542,12/31/2000
+558,Mental disorders,409,12/31/2000
+559,Schizophrenia,558,12/31/2000
+567,Depressive disorders,558,12/31/2000
+568,Major depressive disorder,567,12/31/2000
+569,Dysthymia,567,12/31/2000
+570,Bipolar disorder,558,12/31/2000
+571,Anxiety disorders,558,12/31/2000
+572,Eating disorders,558,12/31/2000
+573,Anorexia nervosa,572,12/31/2000
+574,Bulimia nervosa,572,12/31/2000
+575,Autism spectrum disorders,558,12/31/2000
+578,Attention-deficit/hyperactivity disorder,558,12/31/2000
+579,Conduct disorder,558,12/31/2000
+582,Idiopathic developmental intellectual disability,558,12/31/2000
+585,Other mental disorders,558,12/31/2000
+973,Substance use disorders,409,12/31/2000
+560,Alcohol use disorders,973,12/31/2000
+561,Drug use disorders,973,12/31/2000
+562,Opioid use disorders,561,12/31/2000
+563,Cocaine use disorders,561,12/31/2000
+564,Amphetamine use disorders,561,12/31/2000
+565,Cannabis use disorders,561,12/31/2000
+566,Other drug use disorders,561,12/31/2000
+974,Diabetes and kidney diseases,409,12/31/2000
+587,Diabetes mellitus,974,12/31/2000
+975,Diabetes mellitus type 1,587,12/31/2000
+976,Diabetes mellitus type 2,587,12/31/2000
+589,Chronic kidney disease,974,12/31/2000
+997,Chronic kidney disease due to diabetes mellitus type 1,589,12/31/2000
+998,Chronic kidney disease due to diabetes mellitus type 2,589,12/31/2000
+591,Chronic kidney disease due to hypertension,589,12/31/2000
+592,Chronic kidney disease due to glomerulonephritis,589,12/31/2000
+593,Chronic kidney disease due to other and unspecified causes,589,12/31/2000
+588,Acute glomerulonephritis,974,12/31/2000
+653,Skin and subcutaneous diseases,409,12/31/2000
+654,Dermatitis,653,12/31/2000
+977,Atopic dermatitis,654,12/31/2000
+978,Contact dermatitis,654,12/31/2000
+979,Seborrhoeic dermatitis,654,12/31/2000
+655,Psoriasis,653,12/31/2000
+980,Bacterial skin diseases,653,12/31/2000
+656,Cellulitis,980,12/31/2000
+657,Pyoderma,980,12/31/2000
+658,Scabies,653,12/31/2000
+659,Fungal skin diseases,653,12/31/2000
+660,Viral skin diseases,653,12/31/2000
+661,Acne vulgaris,653,12/31/2000
+662,Alopecia areata,653,12/31/2000
+663,Pruritus,653,12/31/2000
+664,Urticaria,653,12/31/2000
+665,Decubitus ulcer,653,12/31/2000
+668,Other skin and subcutaneous diseases,653,12/31/2000
+669,Sense organ diseases,409,12/31/2000
+981,Blindness and vision loss,669,12/31/2000
+670,Glaucoma,981,12/31/2000
+671,Cataract,981,12/31/2000
+672,Age-related macular degeneration,981,12/31/2000
+999,Refraction disorders,981,12/31/2000
+1000,Near vision loss,981,12/31/2000
+675,Other vision loss,981,12/31/2000
+674,Age-related and other hearing loss,669,12/31/2000
+679,Other sense organ diseases,669,12/31/2000
+626,Musculoskeletal disorders,409,12/31/2000
+627,Rheumatoid arthritis,626,12/31/2000
+628,Osteoarthritis,626,12/31/2000
+1014,Osteoarthritis hip,628,12/31/2000
+1015,Osteoarthritis knee,628,12/31/2000
+1016,Osteoarthritis hand,628,12/31/2000
+1017,Osteoarthritis other,628,12/31/2000
+630,Low back pain,626,12/31/2000
+631,Neck pain,626,12/31/2000
+632,Gout,626,12/31/2000
+639,Other musculoskeletal disorders,626,12/31/2000
+640,Other non-communicable diseases,409,12/31/2000
+641,Congenital birth defects,640,12/31/2000
+642,Neural tube defects,641,12/31/2000
+643,Congenital heart anomalies,641,12/31/2000
+644,Orofacial clefts,641,12/31/2000
+645,Down syndrome,641,12/31/2000
+646,Turner syndrome,641,12/31/2000
+647,Klinefelter syndrome,641,12/31/2000
+648,Other chromosomal abnormalities,641,12/31/2000
+649,Congenital musculoskeletal and limb anomalies,641,12/31/2000
+650,Urogenital congenital anomalies,641,12/31/2000
+651,Digestive congenital anomalies,641,12/31/2000
+652,Other congenital birth defects,641,12/31/2000
+594,Urinary diseases and male infertility,640,12/31/2000
+595,Urinary tract infections and interstitial nephritis,594,12/31/2000
+596,Urolithiasis,594,12/31/2000
+597,Benign prostatic hyperplasia,594,12/31/2000
+598,Male infertility,594,12/31/2000
+602,Other urinary diseases,594,12/31/2000
+603,Gynecological diseases,640,12/31/2000
+604,Uterine fibroids,603,12/31/2000
+605,Polycystic ovarian syndrome,603,12/31/2000
+606,Female infertility,603,12/31/2000
+607,Endometriosis,603,12/31/2000
+608,Genital prolapse,603,12/31/2000
+609,Premenstrual syndrome,603,12/31/2000
+612,Other gynecological diseases,603,12/31/2000
+613,Hemoglobinopathies and hemolytic anemias,640,12/31/2000
+614,Thalassemias,613,12/31/2000
+837,Thalassemias trait,613,12/31/2000
+615,Sickle cell disorders,613,12/31/2000
+838,Sickle cell trait,613,12/31/2000
+616,G6PD deficiency,613,12/31/2000
+839,G6PD trait,613,12/31/2000
+618,Other hemoglobinopathies and hemolytic anemias,613,12/31/2000
+619,"Endocrine, metabolic, blood, and immune disorders",640,12/31/2000
+680,Oral disorders,640,12/31/2000
+681,Caries of deciduous teeth,680,12/31/2000
+682,Caries of permanent teeth,680,12/31/2000
+683,Periodontal diseases,680,12/31/2000
+684,Edentulism,680,12/31/2000
+685,Other oral disorders,680,12/31/2000
+686,Sudden infant death syndrome,640,12/31/2000
+687,Injuries,294,12/31/2000
+688,Transport injuries,687,12/31/2000
+689,Road injuries,688,12/31/2000
+690,Pedestrian road injuries,689,12/31/2000
+691,Cyclist road injuries,689,12/31/2000
+692,Motorcyclist road injuries,689,12/31/2000
+693,Motor vehicle road injuries,689,12/31/2000
+694,Other road injuries,689,12/31/2000
+695,Other transport injuries,688,12/31/2000
+696,Unintentional injuries,687,12/31/2000
+697,Falls,696,12/31/2000
+698,Drowning,696,12/31/2000
+699,"Fire, heat, and hot substances",696,12/31/2000
+700,Poisonings,696,12/31/2000
+701,Poisoning by carbon monoxide,700,12/31/2000
+703,Poisoning by other means,700,12/31/2000
+704,Exposure to mechanical forces,696,12/31/2000
+705,Unintentional firearm injuries,704,12/31/2000
+707,Other exposure to mechanical forces,704,12/31/2000
+708,Adverse effects of medical treatment,696,12/31/2000
+709,Animal contact,696,12/31/2000
+710,Venomous animal contact,709,12/31/2000
+711,Non-venomous animal contact,709,12/31/2000
+712,Foreign body,696,12/31/2000
+713,Pulmonary aspiration and foreign body in airway,712,12/31/2000
+714,Foreign body in eyes,712,12/31/2000
+715,Foreign body in other body part,712,12/31/2000
+842,Environmental heat and cold exposure,696,12/31/2000
+729,Exposure to forces of nature,696,12/31/2000
+716,Other unintentional injuries,696,12/31/2000
+717,Self-harm and interpersonal violence,687,12/31/2000
+718,Self-harm,717,12/31/2000
+721,Self-harm by firearm,718,12/31/2000
+723,Self-harm by other specified means,718,12/31/2000
+724,Interpersonal violence,717,12/31/2000
+725,Physical violence by firearm,724,12/31/2000
+726,Physical violence by sharp object,724,12/31/2000
+941,Sexual violence,724,12/31/2000
+727,Physical violence by other means,724,12/31/2000
+945,Conflict and terrorism,717,12/31/2000
+854,Executions and police conflict,717,12/31/2000
+1029,Total cancers,294,12/31/2000
+1026,Total burden related to hepatitis B,294,12/31/2000
+1027,Total burden related to hepatitis C,294,12/31/2000
+1028,Total burden related to Non-alcoholic fatty liver disease (NAFLD),294,12/31/2000
