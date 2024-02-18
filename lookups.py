@@ -33,41 +33,25 @@ class InputTypes(Enum):
 
 
 class links(Enum):
-    DISEASE_CATEGORY = (
-        "https://heartdisease246.s3.amazonaws.com/disease_category+(1)+(1).csv"
-    )
-    DISEASE = "https://heartdisease246.s3.amazonaws.com/disease+(2)+(1).csv"
-    EPIDEMIOLOGY = (
-        "https://heartdisease246.s3.amazonaws.com/epidemiological+data+(2)+(1).csv"
-    )
-    FRAMINGHAM_STUDY = (
-        "https://heartdisease246.s3.amazonaws.com/Framingham_Study+(2)+(2).csv"
-    )
-    LOCATION = "https://heartdisease246.s3.amazonaws.com/location+(1)+(1).csv"
-    MEASURES = "https://heartdisease246.s3.amazonaws.com/measures+(2)+(1).csv"
-    SWITZERLAND_STUDY = (
-        "https://heartdisease246.s3.amazonaws.com/Switzerland+(1)+(1).csv"
-    )
+    DISEASE_CATEGORY = r"temp_csv\disease_category (1) (1).csv"
+    DISEASE = r"temp_csv\disease (2) (1).csv"
+    EPIDEMIOLOGY = r"temp_csv/epidemiological data (2) (1).csv"
+    FRAMINGHAM_STUDY = r"temp_csv/Framingham_Study (2) (2).csv"
+    LOCATION = r"temp_csv/location (1) (1).csv"
+    MEASURES = r"temp_csv/measures (2) (1).csv"
+    SWITZERLAND_STUDY = r"temp_csv\Switzerland (1) (1).csv"
 
-    CVD_CLEANED = "https://heartdisease246.s3.amazonaws.com/cleveland+(2).csv"
+    CVD_CLEANED = r"temp_csv/cleveland (2).csv"
 
-    confusion_results = (
-        "https://heartdisease246.s3.amazonaws.com/confusion_results+(3)+(1).csv"
-    )
-    importance_features = (
-        "https://heartdisease246.s3.amazonaws.com/important_features+(1)+(1).csv"
-    )
+    confusion_results = r"temp_csv/confusion_results (3) (1).csv"
+    importance_features = r"temp_csv/important_features (1) (1).csv"
 
-    metrics_reults = (
-        "https://heartdisease246.s3.amazonaws.com/metrics_results+(3)+(1).csv"
-    )
-    models_result = (
-        "https://heartdisease246.s3.amazonaws.com/models_result+(13)+(1).csv"
-    )
+    metrics_reults = r"temp_csv/metrics_results (3) (1).csv"
+    models_result = r"temp_csv/models_result (13) (1).csv"
 
 
 class prediction_link(Enum):
-    PREDICTION = "https://heartdisease246.s3.amazonaws.com/heart_statlog_cleveland_hungary_final+(11).csv"
+    PREDICTION = r"temp_csv/heart_statlog_cleveland_hungary_final (8) (1).csv"
 
 
 class DestinationDatabase(Enum):

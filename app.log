@@ -66,3 +66,47 @@
 2023-10-31 17:41:19,242 - INFO - Step 7  : Closing Connection  
 2023-10-31 17:41:19,242 - INFO -  Prehook Phase Started 
 2023-10-31 17:41:19,367 - INFO -   Truncated Staging Tables 
+2024-02-19 01:06:35,362 - INFO -  Executing Prehook :
+2024-02-19 01:06:35,362 - INFO -  Creating Database Connection :
+2024-02-19 01:06:35,515 - INFO -  Step 2 Creating Schema :
+2024-02-19 01:06:35,545 - INFO -  Step 3 Executing ML Classification and Prediction
+2024-02-19 01:09:50,610 - INFO - NumExpr defaulting to 8 threads.
+2024-02-19 01:09:52,192 - INFO -  Executing Prehook :
+2024-02-19 01:09:52,192 - INFO -  Creating Database Connection :
+2024-02-19 01:09:52,260 - INFO -  Step 2 Creating Schema :
+2024-02-19 01:09:52,260 - INFO -  Step 3 Executing ML Classification and Prediction
+2024-02-19 01:09:55,516 - INFO -  Step 4 Creating Staging Tables
+2024-02-19 01:12:52,647 - INFO - NumExpr defaulting to 8 threads.
+2024-02-19 01:12:54,113 - INFO -  Executing Prehook :
+2024-02-19 01:12:54,113 - INFO -  Creating Database Connection :
+2024-02-19 01:12:54,163 - INFO -  Step 2 Creating Schema :
+2024-02-19 01:12:54,163 - INFO -  Step 3 Executing ML Classification and Prediction
+2024-02-19 01:12:56,862 - INFO -  Step 4 Creating Staging Tables
+2024-02-19 01:12:58,929 - INFO -  Step 5 Closing Connection
+2024-02-19 01:14:50,100 - INFO - NumExpr defaulting to 8 threads.
+2024-02-19 01:14:51,516 - INFO -  Executing Prehook :
+2024-02-19 01:14:51,516 - INFO -  Creating Database Connection :
+2024-02-19 01:14:51,583 - INFO -  Step 2 Creating Schema :
+2024-02-19 01:17:07,847 - INFO - NumExpr defaulting to 8 threads.
+2024-02-19 01:17:09,247 - INFO -  Executing Prehook :
+2024-02-19 01:17:09,247 - INFO -  Creating Database Connection :
+2024-02-19 01:17:09,314 - INFO -  Step 2 Creating Schema :
+2024-02-19 01:17:09,314 - INFO -  Step 3 Executing ML Classification and Prediction
+2024-02-19 01:17:11,946 - INFO -  Step 4 Creating Staging Tables
+2024-02-19 01:17:14,695 - INFO -  Step 5 Closing Connection
+2024-02-19 01:18:05,877 - INFO -  Executing Prehook :
+2024-02-19 01:18:05,877 - INFO -  Creating Database Connection :
+2024-02-19 01:18:05,939 - INFO -  Step 2 Creating Schema :
+2024-02-19 01:18:05,941 - INFO -  Step 3 Executing ML Classification and Prediction
+2024-02-19 01:18:08,533 - INFO -  Step 4 Creating Staging Tables
+2024-02-19 01:18:10,548 - INFO -  Step 5 Closing Connection
+2024-02-19 01:18:10,548 - INFO -  Executing Hook :
+2024-02-19 01:18:10,548 - INFO -  Step 1:Creating Database Connection :
+2024-02-19 01:18:10,598 - INFO -  Step 2:Creating ETL Checkpoint :
+2024-02-19 01:18:10,614 - INFO -  Step 3:Retrieving Etl Last Update Date
+2024-02-19 01:18:11,131 - INFO - step 4 : Inserting New Data into Staging Tables  
+2024-02-19 01:19:49,638 - INFO - 5tep 5 : Creating / Updating Tables   
+2024-02-19 01:20:03,266 - INFO - Step 6 : Inserting or Updating ETL Check Point  
+2024-02-19 01:20:03,268 - INFO - Step 7  : Closing Connection  
+2024-02-19 01:20:03,318 - INFO -  Posthook Phase Started 
+2024-02-19 01:20:03,702 - INFO -   Truncated Staging Tables 

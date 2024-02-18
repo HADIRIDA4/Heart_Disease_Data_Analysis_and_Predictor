@@ -10,15 +10,13 @@ from lookups import *
 
 def download_csv_to_dataframe(index_url):
     try:
-        response = requests.get(index_url)
-        response.raise_for_status()  # Check for any HTTP errors
-        if response.status_code == 200:
-            csv_text = StringIO(response.text)
-            df = return_data_as_df(file_executor=csv_text, input_type=InputTypes.CSV)
-            return df
-        else:
-            print("Failed to download CSV file. Status code:", response.status_code)
-            return None
+        # response = requests.get(index_url)
+        # response.raise_for_status()  # Check for any HTTP errors
+        # if response.status_code == 200:
+        # csv_text = StringIO(response.text)
+        df = return_data_as_df(file_executor=index_url, input_type=InputTypes.CSV)
+        return df
+
     except Exception as e:
         print(f"An error occurred: {str(e)}")
         return df

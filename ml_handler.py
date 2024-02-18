@@ -58,7 +58,7 @@ import pandas as pd
 
 
 def data_processing(Source, drop_null=True):
-    dt = download_csv_to_dataframe(Source)
+    dt = pd.read_csv(Source)
     dt.columns = dt.columns.str.replace(" ", "_")
 
     dt["chest_pain_type"] = dt["chest_pain_type"].map(
@@ -89,10 +89,10 @@ def training_preprocessing(dt):
         X, y, stratify=y, test_size=0.2, shuffle=True, random_state=5
     )
     scaler = MinMaxScaler()
-    X_train[
-        ["age", "resting_bp_s", "cholesterol", "max_heart_rate", "oldpeak"]
-    ] = scaler.fit_transform(
-        X_train[["age", "resting_bp_s", "cholesterol", "max_heart_rate", "oldpeak"]]
+    X_train[["age", "resting_bp_s", "cholesterol", "max_heart_rate", "oldpeak"]] = (
+        scaler.fit_transform(
+            X_train[["age", "resting_bp_s", "cholesterol", "max_heart_rate", "oldpeak"]]
+        )
     )
 
     return X_train, X_test, y_train, y_test
